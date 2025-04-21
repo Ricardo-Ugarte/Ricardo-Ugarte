@@ -1,7 +1,7 @@
 # ¡Hola! 👋 Soy Ricardo Ugarte  
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Ricardo-Ugarte.readme) [![GitHub followers](https://img.shields.io/github/followers/Ricardo-Ugarte?style=social)](https://github.com/Ricardo-Ugarte?tab=followers)
 
-<img align="right" width="300px" src="https://c.tenor.com/GN73MKBawZYAAAAi/busy-cute.gif" alt="working bear" />
+<img align="right" width="300px" src="https://github.com/Ricardo-Ugarte/Ricardo-Ugarte/blob/main/GIF.gif" />
 
 ## 📌 Sobre mí
 
