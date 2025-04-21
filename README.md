@@ -3,7 +3,6 @@
 
 <img align="right" width="300px" src="https://github.com/Ricardo-Ugarte/Ricardo-Ugarte/blob/main/GIF.gif" />
 
-## 📌 Sobre mí
 
 🎯 Soy **Analista de datos** y **desarrollador de aplicaciones** con experiencia en Power BI, SQL Server y herramientas de automatización, con destrezas en construir procesos ETL, gestionar flujos de datos y diseñar visualizaciones que facilitan decisiones en sectores como tecnología, finanzas y operaciones. Enfocado en agilizar tareas repetitivas y entregar análisis claros mediante soluciones prácticas y escalables.
 
