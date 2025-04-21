@@ -31,11 +31,12 @@
 
 ---
 
-## 🎯 Actualmente
+## 📊 Proyectos destacados
 
-- 🚀 Construyendo mi portfolio profesional de análisis de datos.
-- 📬 Abierto a oportunidades remotas o híbridas.
-- 🧠 Aprendiendo y compartiendo contenido sobre Power Platform, análisis y automatización.
+| Proyecto | Descripción | Herramientas |
+|---------|-------------|--------------|
+| [Dashboard de Reclamos](https://bit.ly/reclamosView) | Análisis de reclamos categorizados por tipo, estado y tiempos de resolución. Incluye visualizaciones interactivas. | Power BI |
+| [Reporte de Ventas Empire](https://bit.ly/reporteempireventas) | Dashboard de ventas por producto, canal y sucursal. Segmentado por fecha y región con KPIs clave. | Power BI |
 
 ---
 
