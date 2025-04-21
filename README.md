@@ -40,7 +40,7 @@
 
 ---
 <p align="left">
-  <a href="https://github.com/Ricardo-Ugarte/Ricardo-Ugarte/blob/main/assets/CV_Ricardo_Ugarte.pdf" target="_blank">
+  <a href="https://github.com/Ricardo-Ugarte/Ricardo-Ugarte/blob/main/assets/CV ING RICARDO UGARTE H.pdf" target="_blank">
     <img src="https://img.shields.io/badge/📄 Ver%20mi%20CV-blue?style=for-the-badge" />
   </a>
 </p>
