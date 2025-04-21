@@ -5,7 +5,7 @@
 
 ## 📌 Sobre mí
 
-🎯 Soy **Analista de Datos** e **Ingeniero Civil**, especializado en Power BI, SQL Server, Power Apps y automatización con Excel. Me enfoco en construir soluciones que conviertan datos en decisiones, optimizando procesos y generando impacto real en negocios y operaciones.
+🎯 Soy **Analista de datos** y **desarrollador de aplicaciones** con experiencia en Power BI, SQL Server y herramientas de automatización, con destrezas en construir procesos ETL, gestionar flujos de datos y diseñar visualizaciones que facilitan decisiones en sectores como tecnología, finanzas y operaciones. Enfocado en agilizar tareas repetitivas y entregar análisis claros mediante soluciones prácticas y escalables.
 
 - 📊 Experiencia en diseño de dashboards, ETL, visualizaciones interactivas y reporting financiero.
 - ⚙️ Automatización de tareas repetitivas con Power Query, DAX y flujos de trabajo integrados.
@@ -23,8 +23,6 @@
 <img src="https://www.impactory.de/wp-content/uploads/2024/02/Power-Apps-1200x628-1.png" style="height: 4rem; background-color:white"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" style="height: 4rem"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" style="height: 4rem"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" style="height: 4rem"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg"  style="height: 4rem"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-plain.svg" style="height: 4rem"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" style="height: 4rem"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" style="height: 4rem"/>
