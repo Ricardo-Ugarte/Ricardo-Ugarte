@@ -37,8 +37,6 @@
 
 - [🔗 LinkedIn](https://www.linkedin.com/in/ricardo-ugarte)
 - 📧 ricardougarte3@gmail.com
-
----
 <p align="left">
   <a href="https://github.com/Ricardo-Ugarte/Ricardo-Ugarte/blob/main/assets/CV ING RICARDO UGARTE H.pdf" target="_blank">
     <img src="https://img.shields.io/badge/📄 Ver%20mi%20CV-blue?style=for-the-badge" />
