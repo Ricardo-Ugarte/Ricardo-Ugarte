@@ -1,22 +1,41 @@
-# Hi there 👋, Bhargavi here. 
-![Visitor](https://visitor-badge.laobi.icu/badge?page_id=Bhargavi-hash.repoName) [![GitHub followers](https://img.shields.io/github/followers/Bhargavi-hash.svg?style=social&label=Follow)](https://github.com/Bhargavi-hash?tab=followers)<br/>
+# ¡Hola! 👋 Soy Ricardo Ugarte  
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Ricardo-Ugarte.readme) [![GitHub followers](https://img.shields.io/github/followers/Ricardo-Ugarte?style=social)](https://github.com/Ricardo-Ugarte?tab=followers)
 
-<!--
-**Bhargavi-hash/Bhargavi-hash** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
+<img align="right" width="300px" src="https://c.tenor.com/GN73MKBawZYAAAAi/busy-cute.gif" alt="working bear" />
 
-<img align="right" width=300px alt="Unicorn" src="https://c.tenor.com/GN73MKBawZYAAAAi/busy-cute.gif" />
+## 📌 Sobre mí
 
-## <img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="30px">&nbsp;***About me***
+🎯 Soy **Analista de Datos** e **Ingeniero Civil**, especializado en Power BI, SQL Server, Power Apps y automatización con Excel. Me enfoco en construir soluciones que conviertan datos en decisiones, optimizando procesos y generando impacto real en negocios y operaciones.
 
-I am an undergraduate Computer science and Engineering student at IIIT-Hyderabad. C, C++, Python, Javascript, HTML, and Shell are the programming languages I am good at. I love to learn and build something new, productive, innovative and creative.
-* **I am interested in Web designing, Android development, and digital marketing**
-- 🌱 I’m currently learning ...
-  - Java
-  - React js
-- 👯 I’m looking forward to collaborate on open source projects.
-- ✔ Ask me about anything, I am happy to help, only if the ball is in my court!😉<br>
-- Outside tech, 📖 I love to read novels, 🖌️ do painting and skecthing, 🎵 listen to music, and 🌴 explore nature outdoors.
-- 📫 Reach out to me at: <a href="bhargavi.kurukunda@students.iiit.ac.in">bhargavi.kurukunda@students.iiit.ac.in</a>
+- 📊 Experiencia en diseño de dashboards, ETL, visualizaciones interactivas y reporting financiero.
+- ⚙️ Automatización de tareas repetitivas con Power Query, DAX y flujos de trabajo integrados.
+- 💡 Alineado con la mejora continua, combinando pensamiento analítico y enfoque visual.
 
-__Check out my GitHub repository:__
+---
+
+## 🧰 Tecnologías y herramientas
+
+- 🔷 Power BI (DAX, Power Query, dashboards interactivos)
+- 🗄️ SQL Server (procedimientos, modelado de datos, ETL)
+- 🟢 Power Apps (formularios conectados con SharePoint y SQL)
+- 📈 Excel avanzado (automatización, reporting dinámico)
+
+---
+
+## 🎯 Actualmente
+
+- 🚀 Construyendo mi portfolio profesional de análisis de datos.
+- 📬 Abierto a oportunidades remotas o híbridas.
+- 🧠 Aprendiendo y compartiendo contenido sobre Power Platform, análisis y automatización.
+
+---
+
+## 📫 Contacto
+
+- [🔗 LinkedIn](https://www.linkedin.com/in/ricardo-ugarte)
+- 📧 ricardougarte3@gmail.com
+
+---
+
+> “Los datos bien entendidos no solo informan, transforman.”
+
