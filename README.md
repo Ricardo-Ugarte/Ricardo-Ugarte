@@ -1,49 +1,51 @@
 # ¡Hola! 👋 Soy Ricardo Ugarte  
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Ricardo-Ugarte.readme) [![GitHub followers](https://img.shields.io/github/followers/Ricardo-Ugarte?style=social)](https://github.com/Ricardo-Ugarte?tab=followers)
 
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Ricardo-Ugarte.readme)
-[![GitHub followers](https://img.shields.io/github/followers/Ricardo-Ugarte?style=social)](https://github.com/Ricardo-Ugarte?tab=followers)
-
-<img align="right" width="280px" src="https://github.com/Ricardo-Ugarte/Ricardo-Ugarte/blob/main/GIF.gif" />
+<img align="right" width="300px" src="https://github.com/Ricardo-Ugarte/Ricardo-Ugarte/blob/main/GIF.gif" />
 
 ## 📌 Sobre mí
 
-🎯 **Analista de datos** y **desarrollador de aplicaciones** especializado en Power BI, SQL Server y herramientas de automatización. Tengo experiencia diseñando procesos ETL, gestionando flujos de datos y creando dashboards que facilitan decisiones estratégicas en sectores como tecnología, finanzas y operaciones.
+🎯 Soy **Analista de datos** y **desarrollador de aplicaciones** con experiencia en Power BI, SQL Server y herramientas de automatización, con destrezas en construir procesos ETL, gestionar flujos de datos y diseñar visualizaciones que facilitan decisiones en sectores como tecnología, finanzas y operaciones. Enfocado en agilizar tareas repetitivas y entregar análisis claros mediante soluciones prácticas y escalables.
 
-🔍 Me enfoco en simplificar procesos complejos y entregar análisis claros mediante soluciones escalables y automatizadas.
+- 📊 Experiencia en diseño de dashboards, ETL, visualizaciones interactivas y reporting financiero.
+- ⚙️ Automatización de tareas repetitivas con Power Query, DAX y flujos de trabajo integrados.
+- 💡 Alineado con la mejora continua, combinando pensamiento analítico y enfoque visual.
 
-- 📊 Dashboards interactivos, reporting financiero y análisis de rendimiento.
-- ⚙️ Automatización de flujos con Power Query, DAX, Power Automate y SQL.
-- 🧠 Mentalidad de mejora continua, con enfoque analítico y visual.
 
 ---
 
 ## 🧰 Tecnologías y herramientas
 
-<p align="center">
-  <img src="https://mspcorp.ca/wp-content/uploads/2025/01/Fabric-transparent-logo.webp" alt="Microsoft Fabric" height="50"/>
-  <img src="https://cdn.worldvectorlogo.com/logos/microsoft-sql-server-1.svg" alt="SQL Server" height="50"/>
-  <img src="https://www.impactory.de/wp-content/uploads/2024/02/Power-Apps-1200x628-1.png" alt="Power Apps" height="50"/>
-  <img src="https://sharepointinterface.com/wp-content/uploads/2023/01/PALogo.png" alt="Power Automate" height="50"/>
-  <img src="https://apen.es/wp-content/uploads/2020/11/logo-microsoft-excel.jpg" alt="Excel" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="GitHub" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" height="50"/>
+<p align="center"><img src="https://mspcorp.ca/wp-content/uploads/2025/01/Fabric-transparent-logo.webp" style="height: 4rem"/>
+<img src="https://cdn.worldvectorlogo.com/logos/microsoft-sql-server-1.svg" style="height:4rem; background-color:white"/>
+<img src="https://i.pinimg.com/736x/ff/ca/de/ffcade7ea39de9b876eb76bbbd4fedb5.jpg" style="height: 4rem; background-color:white"/>
+<img src="https://www.impactory.de/wp-content/uploads/2024/02/Power-Apps-1200x628-1.png" style="height: 4rem; background-color:white"/>
+<img src="https://sharepointinterface.com/wp-content/uploads/2023/01/PALogo.png" style="height: 4rem"/>
+<img src="https://apen.es/wp-content/uploads/2020/11/logo-microsoft-excel.jpg" style="height: 4rem"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" style="height: 4rem; background-color:white"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"  style="height: 4rem"/>
 </p>
+
 
 ---
 
 ## 📊 Proyectos destacados
 
 | Proyecto | Descripción | Herramientas |
-|----------|-------------|--------------|
-| [Dashboard de Reclamos](https://bit.ly/reclamosView) | Análisis de reclamos categorizados por tipo, estado y tiempos de resolución. Visualizaciones interactivas con filtros dinámicos. | Power BI |
-| [Reporte de Ventas Empire](https://bit.ly/reporteempireventas) | Dashboard de ventas por producto, canal y sucursal. KPIs financieros, segmentaciones por fecha y región. | Power BI |
+|---------|-------------|--------------|
+| [Dashboard de Reclamos](https://bit.ly/reclamosView) | Análisis de reclamos categorizados por tipo, estado y tiempos de resolución. Incluye visualizaciones interactivas. | Power BI |
+| [Reporte de Ventas Empire](https://bit.ly/reporteempireventas) | Dashboard de ventas por producto, canal y sucursal. Segmentado por fecha y región con KPIs clave. | Power BI |
 
 ---
 
 ## 📫 Contacto
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/ricardo-ugarte)
+- [🔗 LinkedIn](https://www.linkedin.com/in/ricardo-ugarte)
 - 📧 ricardougarte3@gmail.com
+
+---
+
+> “Los datos bien entendidos no solo informan, transforman.”
 
 
 
