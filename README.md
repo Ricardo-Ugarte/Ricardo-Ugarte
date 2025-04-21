@@ -21,7 +21,7 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" style="height: 4rem; background-color:white"/>
 <img src="https://i.pinimg.com/736x/ff/ca/de/ffcade7ea39de9b876eb76bbbd4fedb5.jpg" style="height: 4rem; background-color:white"/>
 <img src="https://www.impactory.de/wp-content/uploads/2024/02/Power-Apps-1200x628-1.png" style="height: 4rem; background-color:white"/>
-<img src="https://www.twoday.no/hs-fs/hubfs/GL%20-%20twoday%20Global/GL_Website/Pictures/Microsoft-Power-Automate-4-3-A.png?width=1280&height=1280&name=Microsoft-Power-Automate-4-3-A.png" style="height: 4rem"/>
+<img src="https://roommanager.com/wp-content/uploads/2023/03/Power-Automate-Logo.png" style="height: 4rem"/>
 <img src="https://mailmeteor.com/logos/assets/PNG/Microsoft_Office_Excel_Logo_512px.png" style="height: 4rem"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" style="height: 4rem"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" style="height: 4rem; background-color:white"/>
