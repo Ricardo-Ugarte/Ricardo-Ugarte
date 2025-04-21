@@ -16,7 +16,7 @@
 
 ## 🧰 Tecnologías y herramientas
 
-<p align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/excel/excel-original.svg" style="height: 4rem"/>
+<p align="center"><img src="https://mspcorp.ca/wp-content/uploads/2025/01/Fabric-transparent-logo.webp" style="height: 4rem"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-original.svg" style="height:4rem; background-color:white"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" style="height: 4rem; background-color:white"/>
 <img src="https://i.pinimg.com/736x/ff/ca/de/ffcade7ea39de9b876eb76bbbd4fedb5.jpg" style="height: 4rem; background-color:white"/>
