@@ -44,8 +44,7 @@
     <img src="https://img.shields.io/badge/📄 Ver%20mi%20CV-blue?style=for-the-badge" />
   </a>
 </p>
----
-> “Los datos bien entendidos no solo informan, transforman.”
+
 
 
 
