@@ -29,7 +29,7 @@
 
 | Proyecto | Descripción | Herramientas |
 |---------|-------------|--------------|
-| [Dashboard de Reclamos](https://bit.ly/reclamosView) | Análisis de reclamos categorizados por tipo, estado y tiempos de resolución. Incluye visualizaciones interactivas. | Power BI |
+| [Dashboard de Reclamos](https://github.com/Ricardo-Ugarte/Portfolio/tree/1db430cbb03dfa524f4a06abb164d60310be1454/PowerBI) | Análisis de reclamos categorizados por tipo, estado y tiempos de resolución. Incluye visualizaciones interactivas. | Power BI |
 | [Reporte de Ventas Empire](https://bit.ly/reporteempireventas) | Dashboard de ventas por producto, canal y sucursal. Segmentado por fecha y región con KPIs clave. | Power BI |
 | [CV interactivo en Power BI](https://app.powerbi.com/view?r=eyJrIjoiYzQ0MTNkODAtODlhMi00N2M0LWEwMTktZWRhOWVhMDUyN2MyIiwidCI6ImE3MGQ2YTcyLWQ0MzYtNGNhNy1hYTViLTRhN2EwODk3MDgyNSJ9) | Visualización interactiva de mi experiencia laboral, formación, habilidades y proyectos, presentada como un dashboard dinámico. | Power BI |
 
