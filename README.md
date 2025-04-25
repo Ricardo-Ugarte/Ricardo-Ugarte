@@ -2,11 +2,10 @@
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Ricardo-Ugarte.readme) [![GitHub followers](https://img.shields.io/github/followers/Ricardo-Ugarte?style=social)](https://github.com/Ricardo-Ugarte?tab=followers)
 <img align="center" width="300px" src="https://github.com/Ricardo-Ugarte/Ricardo-Ugarte/blob/main/>GIF.gif" />
 
-🎯 Soy **Analista de datos** y **desarrollador de aplicaciones** con experiencia en Power BI, SQL Server y herramientas de automatización, con destrezas en construir procesos ETL, gestionar flujos de datos y diseñar visualizaciones que facilitan decisiones en sectores como tecnología, finanzas y operaciones. Enfocado en agilizar tareas repetitivas y entregar análisis claros mediante soluciones prácticas y escalables.
-
-- 📊 Experiencia en diseño de dashboards, ETL, visualizaciones interactivas y reporting financiero.
-- ⚙️ Automatización de tareas repetitivas con Power Query, DAX y flujos de trabajo integrados.
-- 💡 Alineado con la mejora continua, combinando pensamiento analítico y enfoque visual.
+Soy **Analista de Datos** y **Desarrollador de Aplicaciones**, especializado en Power BI, SQL Server y herramientas de automatización. Construyo soluciones ETL, gestiono flujos de datos y diseño dashboards interactivos que facilitan decisiones estratégicas en áreas como tecnología, finanzas y operaciones.
+- 📊 Diseño dashboards, reporting financiero y visualizaciones interactivas.
+- ⚙️ Automatizo procesos repetitivos con Power Query, DAX y flujos integrados.
+- 💡 Orientado a la mejora continua, combinando análisis técnico y visualización efectiva.
 ---
 ## 🧰 Tecnologías y herramientas
 
