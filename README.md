@@ -1,5 +1,6 @@
 # ¡Hola! 👋 Soy Ricardo Ugarte  
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Ricardo-Ugarte.readme) [![GitHub followers](https://img.shields.io/github/followers/Ricardo-Ugarte?style=social)](https://github.com/Ricardo-Ugarte?tab=followers)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Ricardo-Ugarte/Ricardo-Ugarte)
+ [![GitHub followers](https://img.shields.io/github/followers/Ricardo-Ugarte?style=social)](https://github.com/Ricardo-Ugarte?tab=followers)
 <img align="center" width="300px" src="https://github.com/Ricardo-Ugarte/Ricardo-Ugarte/blob/main/>GIF.gif" />
 
 
