@@ -1,3 +1,8 @@
+<h1 align="center">Hi 👋, I'm Hridoy</h1>
+
+I am Shahadat Hossain Hridoy Al,I am currently pursuing my Bachelors in computer science from [Metropolitan University](https://metrouni.edu.bd/). I am a tech enthusiast & a self learner.
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=HridoyHazard" alt="HridoyHazard" /> </p>
 <p align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=800&pause=1000&size=33&color=042D5E&width=370&height=100&lines=Hi+%2C+I'm+RicardoUgarte+%F0%9F%91%8B" alt="Typing SVG" /></a>
 </p>
