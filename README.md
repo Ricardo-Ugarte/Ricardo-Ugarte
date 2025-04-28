@@ -1,9 +1,14 @@
-<h1 align="center">Hi 👋, I'm Hridoy</h1>
+<h1 align="center"><b>Ricardo Ugarte </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
+<!--  -->
+<img align="right" width=300px alt="Unicorn" src="https://github.com/Ricardo-Ugarte/Ricardo-Ugarte/blob/main/GIF.gif?raw=true" />
+
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnJwNWd0dHBxajJiZGRlZWt4M3I5Y3VrMzJrZnIxcjV3d2VtZ3VnOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/iDaCeaKrHhUI1I8e2b/giphy.gif" width="30px">&nbsp;***Data Analyst | Power BI & Power Apps Developer | SQL***
 
 Soy **Analista de Datos** y **Desarrollador de Aplicaciones**, especializado en Power BI, SQL Server y herramientas de automatización. Construyo soluciones ETL, gestiono flujos de datos y diseño dashboards interactivos que facilitan decisiones estratégicas en áreas como tecnología, finanzas y operaciones.
 - 📊 Diseño dashboards, reporting financiero y visualizaciones interactivas.
 - ⚙️ Automatizo procesos repetitivos con Power Query, DAX y flujos integrados.
 - 💡 Orientado a la mejora continua, combinando análisis técnico y visualización efectiva.
+- 
 ---
 ## 🧰 Tecnologías y herramientas
 
