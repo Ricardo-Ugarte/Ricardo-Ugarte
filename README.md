@@ -5,7 +5,7 @@
 <img src="https://komarev.com/ghpvc/?username=Mahdiiye&color=brightgreen" alt="watching_count" />
  </p>
 ## <picture><img src = "https://user-images.githubusercontent.com/64439609/213525571-a0b12213-7e89-48df-a45f-153c78f3cf5e.png" width =40px></picture> **About me**
-<picture> <img align="right" src="https://github.com/Ricardo-Ugarte/Ricardo-Ugarte/blob/main/GIF.gif?raw=true" width = 400px></picture>
+<picture> <img align="right" src="https://github.com/Ricardo-Ugarte/Ricardo-Ugarte/blob/main/GIF.gif?raw=true" width = 300px></picture>
  <p align="left">
   <img src="https://img.shields.io/badge/Focus-Backend%20Development-dodgerblue" />
   <img src="https://img.shields.io/badge/Languages-English-dodgerblue" />
