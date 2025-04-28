@@ -1,21 +1,5 @@
 <h1 align="center">Hi 👋, I'm Hridoy</h1>
 
-I am Shahadat Hossain Hridoy Al,I am currently pursuing my Bachelors in computer science from [Metropolitan University](https://metrouni.edu.bd/). I am a tech enthusiast & a self learner.
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=HridoyHazard" alt="HridoyHazard" /> </p>
-<p align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=800&pause=1000&size=33&color=042D5E&width=370&height=100&lines=Hi+%2C+I'm+RicardoUgarte+%F0%9F%91%8B" alt="Typing SVG" /></a>
-</p>
-<p align="left"> 
-<img src="https://komarev.com/ghpvc/?username=Mahdiiye&color=brightgreen" alt="watching_count" />
- </p>
-## <picture><img src = "https://user-images.githubusercontent.com/64439609/213525571-a0b12213-7e89-48df-a45f-153c78f3cf5e.png" width =40px></picture> **About me**
-<picture> <img align="right" src="https://github.com/Ricardo-Ugarte/Ricardo-Ugarte/blob/main/GIF.gif?raw=true" width = 300px></picture>
- <p align="left">
-  <img src="https://img.shields.io/badge/Focus-Backend%20Development-dodgerblue" />
-  <img src="https://img.shields.io/badge/Languages-English-dodgerblue" />
-</p>
-
 Soy **Analista de Datos** y **Desarrollador de Aplicaciones**, especializado en Power BI, SQL Server y herramientas de automatización. Construyo soluciones ETL, gestiono flujos de datos y diseño dashboards interactivos que facilitan decisiones estratégicas en áreas como tecnología, finanzas y operaciones.
 - 📊 Diseño dashboards, reporting financiero y visualizaciones interactivas.
 - ⚙️ Automatizo procesos repetitivos con Power Query, DAX y flujos integrados.
