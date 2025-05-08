@@ -14,11 +14,13 @@ Soy **Analista de Datos** y **Desarrollador de Aplicaciones**, especializado en 
 
 <p align="center"><img src="https://mspcorp.ca/wp-content/uploads/2025/01/Fabric-transparent-logo.webp" style="height: 4rem"/>
 <img src="https://cdn.worldvectorlogo.com/logos/microsoft-sql-server-1.svg" style="height:4rem; background-color:white"/>
-<img src="https://i.pinimg.com/736x/ff/ca/de/ffcade7ea39de9b876eb76bbbd4fedb5.jpg" style="height: 4rem; background-color:white"/>
-<img src="https://www.impactory.de/wp-content/uploads/2024/02/Power-Apps-1200x628-1.png" style="height: 4rem; background-color:white"/>
-<img src="https://sharepointinterface.com/wp-content/uploads/2023/01/PALogo.png" style="height: 4rem"/>
-<img src="https://apen.es/wp-content/uploads/2020/11/logo-microsoft-excel.jpg" style="height: 4rem"/>
-<img src=" https://formadoresit.es/wp-content/uploads/2022/02/logoPowerQuery.png" style="height: 4rem; background-color:white"/>
+<img src="https://www.jeveuxetredatascientist.fr/wp-content/uploads/2023/09/power-bi-vector-logo-2022.jpg" style="height: 4rem; background-color:white"/>
+<img src="https://cdn-public.softwarereviews.com/production/logos/offerings/7351/large/microsoft_power_automate_logo.png?1710966766" style="height: 4rem"/>
+<img src="https://logos-world.net/wp-content/uploads/2022/02/Microsoft-Excel-Symbol.png" style="height: 4rem"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" style="height: 4rem; background-color:white"/> 
+<img src="https://formadoresit.es/wp-content/uploads/2022/02/logoPowerQuery.png" style="height: 4rem; background-color:white"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGZwiXT1YsEnCpIaa5IFkAaqqfUO7aSBu-ZQ&s" style="height: 4rem; background-color:white"/>
+<img src="https://www.vs-sistemas.com/wp-content/uploads/2023/07/Power-Apps.png" style="height: 4rem; background-color:white"/>  
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" style="height: 4rem; background-color:white"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"  style="height: 4rem"/>
 </p>
