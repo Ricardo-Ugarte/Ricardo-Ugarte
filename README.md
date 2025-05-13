@@ -1,4 +1,4 @@
-<h1 align="center"><b>Ricardo Ugarte </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
+<h1 align="left"><b>Ricardo Ugarte </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 
 <img align="right" width=260px alt="Unicorn" src="https://github.com/Ricardo-Ugarte/Ricardo-Ugarte/blob/main/GIF.gif?raw=true" />
 
@@ -32,10 +32,9 @@ Soy **Analista de Datos** y **Desarrollador de Aplicaciones**, especializado en 
 
 | Tecnología / Área | Descripción | Acceso |
 |------------------|-------------|--------|
-| <img src="https://www.jeveuxetredatascientist.fr/wp-content/uploads/2023/09/power-bi-vector-logo-2022.jpg" width="24"/> **Power BI** | Dashboards, reportes financieros, control de reclamos, visualizaciones interactivas. | [📁](./Portfolio/PowerBI) |
-| <img src="https://www.vs-sistemas.com/wp-content/uploads/2023/07/Power-Apps.png" width="24"/> **Power Apps** | Aplicaciones para control de stock, mantenimiento y automatización de formularios. | [📁](./Portfolio/PowerApps) |
-| <img src="https://cdn-public.softwarereviews.com/production/logos/offerings/7351/large/microsoft_power_automate_logo.png?1710966766" width="24"/> **Power Automate** | Automatización de flujos repetitivos y conexión entre plataformas. | [📁](./Portfolio/PowerAutomate) |
-| <img src="https://cdn.worldvectorlogo.com/logos/microsoft-sql-server-1.svg" width="24"/> **SQL Server** | Modelado de datos, consultas, vistas, optimización y diseño relacional. | [📁](./Portfolio/SQL) |
+| <img src="https://www.jeveuxetredatascientist.fr/wp-content/uploads/2023/09/power-bi-vector-logo-2022.jpg" width="24"/> **Power BI** | Dashboards, reportes financieros, control de reclamos, visualizaciones interactivas. | [📁](https://github.com/Ricardo-Ugarte/Portfolio/tree/653dacee48bd54893c5529d70667e31ac23949fe/PowerBI) |
+| <img src="https://www.vs-sistemas.com/wp-content/uploads/2023/07/Power-Apps.png" width="24"/> **Power Apps** | Aplicaciones para control de stock, mantenimiento y automatización de formularios. | [📁](https://github.com/Ricardo-Ugarte/Portfolio/tree/653dacee48bd54893c5529d70667e31ac23949fe/PowerApps) |
+| <img src="https://cdn.worldvectorlogo.com/logos/microsoft-sql-server-1.svg" width="24"/> **SQL Server** | Modelado de datos, consultas, vistas, optimización y diseño relacional. | [📁](https://github.com/Ricardo-Ugarte/Portfolio/blob/653dacee48bd54893c5529d70667e31ac23949fe/SQL%20Server%20Management%20Studio/gestion_ventas.sql) |
 | <img src="https://mspcorp.ca/wp-content/uploads/2025/01/Fabric-transparent-logo.webp" width="24"/> **Microsoft Fabric** | Proyectos con Lakehouse, pipelines, dataflows y análisis desde OneLake. | [📁](./Portfolio/Fabric) |
 | <img src="https://logos-world.net/wp-content/uploads/2022/02/Microsoft-Excel-Symbol.png" width="24"/> **Excel & Power Query** | Transformaciones, reportes y automatización de procesos en hojas de cálculo. | [📁](./Portfolio/Excel) |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="24"/> **Python** *(en progreso)* | Scripts y automatizaciones para ETL y análisis de datos. | [📁](./Portfolio/Python) |
