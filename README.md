@@ -35,9 +35,9 @@ Soy **Analista de Datos** y **Desarrollador de Aplicaciones**, especializado en 
 | <img src="https://www.jeveuxetredatascientist.fr/wp-content/uploads/2023/09/power-bi-vector-logo-2022.jpg" width="24"/> **Power BI** | Dashboards, reportes financieros, control de reclamos, visualizaciones interactivas. | [📁](https://github.com/Ricardo-Ugarte/Portfolio/tree/653dacee48bd54893c5529d70667e31ac23949fe/PowerBI) |
 | <img src="https://www.vs-sistemas.com/wp-content/uploads/2023/07/Power-Apps.png" width="24"/> **Power Apps** | Aplicaciones para control de stock, mantenimiento y automatización de formularios. | [📁](https://github.com/Ricardo-Ugarte/Portfolio/tree/653dacee48bd54893c5529d70667e31ac23949fe/PowerApps) |
 | <img src="https://cdn.worldvectorlogo.com/logos/microsoft-sql-server-1.svg" width="24"/> **SQL Server** | Modelado de datos, consultas, vistas, optimización y diseño relacional. | [📁](https://github.com/Ricardo-Ugarte/Portfolio/blob/653dacee48bd54893c5529d70667e31ac23949fe/SQL%20Server%20Management%20Studio/gestion_ventas.sql) |
-| <img src="https://mspcorp.ca/wp-content/uploads/2025/01/Fabric-transparent-logo.webp" width="24"/> **Microsoft Fabric** | Proyectos con Lakehouse, pipelines, dataflows y análisis desde OneLake. | [📁](./Portfolio/Fabric) |
+| <img src="https://mspcorp.ca/wp-content/uploads/2025/01/Fabric-transparent-logo.webp" width="24"/> **Microsoft Fabric** | Proyectos con Lakehouse, pipelines, dataflows y análisis desde OneLake. | [](./Portfolio/Fabric) |
 | <img src="https://logos-world.net/wp-content/uploads/2022/02/Microsoft-Excel-Symbol.png" width="24"/> **Excel & Power Query** | Transformaciones, reportes y automatización de procesos en hojas de cálculo. | [📁](./Portfolio/Excel) |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="24"/> **Python** *(en progreso)* | Scripts y automatizaciones para ETL y análisis de datos. | [📁](./Portfolio/Python) |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="24"/> **Python** *(en progreso)* | Scripts y automatizaciones para ETL y análisis de datos. | [](./Portfolio/Python) |
 
 
 
