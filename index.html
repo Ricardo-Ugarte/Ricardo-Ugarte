@@ -3,16 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Analista de Datos - Transformando Datos en Insights</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <title>Ricardo Ugarte · Data Analyst · Microsoft Fabric y Power BI</title>
+    <meta name="description" content="Analista de datos especializado en Microsoft Fabric, Power BI, DAX y SQL Server. Reportes, modelos semánticos e implementaciones de punta a punta.">
+    <link rel="canonical" href="https://ricardo-ugarte.github.io/Ricardo-Ugarte/">
+    <meta name="theme-color" content="#0b0d12">
+    <link rel="icon" type="image/png" href="./brand/favicon.png">
+    <link rel="apple-touch-icon" href="./brand/apple-touch-icon.png">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_AR">
+    <meta property="og:title" content="Ricardo Ugarte · Data Analyst">
+    <meta property="og:description" content="Microsoft Fabric, Power BI, DAX y SQL Server. De la fuente al reporte.">
+    <meta property="og:url" content="https://ricardo-ugarte.github.io/Ricardo-Ugarte/">
+    <meta property="og:image" content="https://ricardo-ugarte.github.io/Ricardo-Ugarte/brand/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Person","name":"Ricardo Ugarte","jobTitle":"Data Analyst","url":"https://ricardo-ugarte.github.io/Ricardo-Ugarte/","image":"https://ricardo-ugarte.github.io/Ricardo-Ugarte/resources/profile-photo.jpg","sameAs":["https://www.linkedin.com/in/ricardo-ugarte","https://github.com/Ricardo-Ugarte"],"knowsAbout":["Microsoft Fabric","Power BI","DAX","SQL Server"]}
+    </script>
+    <link rel="stylesheet" href="./tailwind.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.3/echarts.min.js"></script>
-    <script src="https://unpkg.com/splitting@1.0.6/dist/splitting.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/splitting@1.0.6/dist/splitting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * {
             font-family: 'Inter', sans-serif;
@@ -104,41 +115,46 @@
             transform: translateY(0);
         }
     </style>
+    <link rel="stylesheet" href="./brand.css">
 </head>
-<body class="bg-slate-50 text-slate-800">
+<body class="brand">
+    <div class="scroll-progress" aria-hidden="true"></div>
     <!-- Navegación -->
-    <nav class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-md border-b border-slate-200 z-50">
+    <nav class="site-nav fixed top-0 left-0 right-0 backdrop-blur-md z-50" aria-label="Principal">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
-                <div class="flex items-center gap-3">
-                    <img src="./resources/profile-photo.jpg" alt="Ricardo Ugarte"
-                         style="width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid #2563eb;">
-                    <h1 class="text-xl font-bold text-slate-800">Ricardo <span style="color:#2563eb;">Ugarte</span></h1>
-                </div>
+                <a href="index.html" class="brand-mark" aria-label="Ricardo Ugarte, inicio">
+                    <img src="./brand/logo-monogram.png" alt="" width="38" height="38">
+                    <span>Ricardo Ugarte</span>
+                </a>
+                <div class="flex items-center gap-5 md:gap-8">
                 <div class="hidden md:flex space-x-8">
-                    <a href="index.html" class="nav-link text-slate-600 hover:text-blue-600 font-medium">Inicio</a>
-                    <a href="about.html" class="nav-link text-slate-600 hover:text-blue-600 font-medium">Acerca de</a>
-                    <a href="portfolio.html" class="nav-link text-slate-600 hover:text-blue-600 font-medium">Portfolio</a>
-                    <a href="blog.html" class="nav-link text-slate-600 hover:text-blue-600 font-medium">Blog</a>
-                    <a href="contact.html" class="nav-link text-slate-600 hover:text-blue-600 font-medium">Contacto</a>
+                    <a href="index.html" class="nav-link" aria-current="page">Inicio</a>
+                    <a href="about.html" class="nav-link">Acerca de</a>
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                    <a href="blog.html" class="nav-link">Blog</a>
+                    <a href="contact.html" class="nav-link">Contacto</a>
                 </div>
+                    <button type="button" class="lang-toggle" aria-label="Cambiar idioma" aria-pressed="false" data-no-i18n>
+                        <span data-l="es" class="is-on">ES</span><span data-l="en">EN</span>
+                    </button>
                 <div class="md:hidden">
-                    <button id="mobile-menu-btn" class="text-slate-600 hover:text-blue-600">
+                    <button id="mobile-menu-btn" aria-label="Abrir menú" aria-controls="mobile-menu">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                         </svg>
                     </button>
                 </div>
+                </div>
             </div>
         </div>
-        <!-- Menú Móvil -->
-        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-slate-200">
+        <div id="mobile-menu" class="hidden md:hidden">
             <div class="px-4 py-2 space-y-2">
-                <a href="index.html" class="block py-2 text-slate-600 hover:text-blue-600">Inicio</a>
-                <a href="about.html" class="block py-2 text-slate-600 hover:text-blue-600">Acerca de</a>
-                <a href="portfolio.html" class="block py-2 text-slate-600 hover:text-blue-600">Portfolio</a>
-                <a href="blog.html" class="block py-2 text-slate-600 hover:text-blue-600">Blog</a>
-                <a href="contact.html" class="block py-2 text-slate-600 hover:text-blue-600">Contacto</a>
+                <a href="index.html" class="block py-2">Inicio</a>
+                <a href="about.html" class="block py-2">Acerca de</a>
+                <a href="portfolio.html" class="block py-2">Portfolio</a>
+                <a href="blog.html" class="block py-2">Blog</a>
+                <a href="contact.html" class="block py-2">Contacto</a>
             </div>
         </div>
     </nav>
@@ -346,19 +362,19 @@
 
         <!-- LEFT: texto -->
         <div>
-          <div class="hero-tag">Data Analyst </div>
-          <h1 class="hero-h1">
+          <div class="hero-tag hero-in">Data Analyst</div>
+          <h1 class="hero-h1 hero-in">
             Convierte los datos en <br><span>decisiones claras</span>
           </h1>
-          <div class="hero-typed-wrap"><span id="typed-text"></span></div>
-          <p class="hero-sub">
+          <div class="hero-typed-wrap hero-in" data-no-i18n><span id="typed-text"></span></div>
+          <p class="hero-sub hero-in">
             Ingeniero de formación, analista de datos por elección.
           </p>
-          <div class="hero-actions">
+          <div class="hero-actions hero-in">
             <a href="portfolio.html" class="hero-btn-primary">Ver mi portfolio</a>
             <a href="contact.html"   class="hero-btn-secondary">Contactarme</a>
           </div>
-          <div class="hero-slider-dots">
+          <div class="hero-slider-dots hero-in" aria-hidden="true">
             <div class="hero-dot"></div>
             <div class="hero-dot active"></div>
             <div class="hero-dot"></div>
@@ -367,7 +383,7 @@
 
         <!-- RIGHT: carrusel 3D de dispositivos -->
         <div style="display:flex;flex-direction:column;align-items:center;gap:1.5rem;">
-          <p style="color:#94a3b8;font-size:0.75rem;letter-spacing:0.1em;text-transform:uppercase;font-weight:600;">
+          <p class="hero-eyebrow" style="font-size:0.72rem;text-transform:uppercase;font-weight:600;">
             Resultado Final
           </p>
           <div class="device-scene">
@@ -691,27 +707,28 @@
       var canvas = document.getElementById('hero-canvas');
       if (!canvas) return;
       var ctx = canvas.getContext('2d');
-      var pts = [];
+      var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var pts = [], mouse = null, visible = true, running = false;
       function resize(){
         canvas.width  = canvas.offsetWidth  || window.innerWidth;
         canvas.height = canvas.offsetHeight || window.innerHeight;
       }
       function initPts(){
         pts = [];
-        var n = Math.floor((canvas.width * canvas.height) / 13000);
+        var n = Math.min(110, Math.floor((canvas.width * canvas.height) / 15000));
         for(var i=0;i<n;i++){
           pts.push({
             x: Math.random()*canvas.width,
             y: Math.random()*canvas.height,
-            vx:(Math.random()-0.5)*0.42,
-            vy:(Math.random()-0.5)*0.42,
-            r: Math.random()*1.8+0.7
+            vx:(Math.random()-0.5)*0.36,
+            vy:(Math.random()-0.5)*0.36,
+            r: Math.random()*1.6+0.6
           });
         }
       }
-      function draw(){
+      function frame(){
         ctx.clearRect(0,0,canvas.width,canvas.height);
-        var maxDist = 115;
+        var maxDist = 120;
         for(var i=0;i<pts.length;i++){
           var p=pts[i];
           p.x+=p.vx; p.y+=p.vy;
@@ -719,7 +736,7 @@
           if(p.y<0||p.y>canvas.height) p.vy*=-1;
           ctx.beginPath();
           ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
-          ctx.fillStyle='rgba(96,165,250,0.65)';
+          ctx.fillStyle='rgba(226,196,120,0.7)';
           ctx.fill();
           for(var j=i+1;j<pts.length;j++){
             var q=pts[j];
@@ -729,16 +746,41 @@
               ctx.beginPath();
               ctx.moveTo(p.x,p.y);
               ctx.lineTo(q.x,q.y);
-              ctx.strokeStyle='rgba(96,165,250,'+(0.22*(1-d/maxDist))+')';
+              ctx.strokeStyle='rgba(201,162,75,'+(0.2*(1-d/maxDist))+')';
               ctx.lineWidth=0.6;
               ctx.stroke();
             }
           }
+          if(mouse){
+            var mx=p.x-mouse.x, my=p.y-mouse.y;
+            var md=Math.sqrt(mx*mx+my*my);
+            if(md<170){
+              ctx.beginPath();
+              ctx.moveTo(p.x,p.y);
+              ctx.lineTo(mouse.x,mouse.y);
+              ctx.strokeStyle='rgba(240,220,160,'+(0.45*(1-md/170))+')';
+              ctx.lineWidth=0.7;
+              ctx.stroke();
+            }
+          }
         }
-        requestAnimationFrame(draw);
       }
-      window.addEventListener('resize',function(){ resize(); initPts(); });
-      resize(); initPts(); draw();
+      function loop(){
+        if(!visible){ running=false; return; }
+        frame();
+        requestAnimationFrame(loop);
+      }
+      function start(){ if(!running && !reduce){ running=true; loop(); } }
+      var hero = canvas.parentElement;
+      hero.addEventListener('pointermove',function(e){
+        var r = canvas.getBoundingClientRect();
+        mouse = { x:e.clientX-r.left, y:e.clientY-r.top };
+      });
+      hero.addEventListener('pointerleave',function(){ mouse=null; });
+      new IntersectionObserver(function(en){ visible = en[0].isIntersecting; if(visible) start(); }).observe(canvas);
+      window.addEventListener('resize',function(){ resize(); initPts(); if(reduce) frame(); });
+      resize(); initPts();
+      if(reduce) frame(); else start();
     })();
     </script>
 
@@ -746,189 +788,175 @@
 
 
     <!-- Muestra de Habilidades -->
-    <section class="py-20 bg-slate-50">
+    <section class="py-24 section-dark">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 scroll-reveal">
-                <h2 class="text-4xl font-bold text-slate-800 mb-4">Experiencia Técnica</h2>
-                <p class="text-xl text-slate-600 max-w-3xl mx-auto">
-                    Competente en herramientas y tecnologías líderes para análisis de datos integrales
-                </p>
+                <div class="section-eyebrow">Stack</div>
+                <h2 class="section-title" data-en='Technical <span class="gold-text">experience</span>'>Experiencia <span class="gold-text">técnica</span></h2>
+                <p class="section-lead max-w-2xl mx-auto">Las herramientas con las que trabajo a diario.</p>
             </div>
             
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6" data-stagger>
     
     <!-- Power BI & DAX -->
-    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 scroll-reveal">
-        <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI Logo" class="w-10 h-10">
-        </div>
-        <h3 class="text-xl font-semibold text-slate-800 mb-3">Power BI & DAX</h3>
-        <p class="text-slate-600 mb-4">Dashboards interactivos, reportes paginados en Report Builder, medidas DAX avanzadas, RLS y OLS.</p>
-        <div class="flex flex-wrap gap-2">
-            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-medium">DAX</span>
-            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-medium">Report Builder</span>
-            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-medium">RLS/OLS</span>
-            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-medium">Paginated Reports</span>
-        </div>
+    <div class="scroll-reveal h-full"><div class="g-card h-full">
+        <div class="g-icon">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 20V11"/><path d="M12 20V4"/><path d="M19 20v-6"/><path d="M3 20h18"/></svg>
     </div>
+        <h3>Power BI & DAX</h3>
+        <p>Dashboards interactivos, reportes paginados en Report Builder, medidas DAX avanzadas, RLS y OLS.</p>
+        <div class="flex flex-wrap gap-2">
+            <span class="g-chip">DAX</span>
+            <span class="g-chip">Report Builder</span>
+            <span class="g-chip">RLS/OLS</span>
+            <span class="g-chip">Paginated Reports</span>
+        </div>
+    </div></div>
 
     <!-- Microsoft Fabric -->
-    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 scroll-reveal">
-        <div class="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6">
-            <img src="https://static.wikia.nocookie.net/logopedia/images/a/aa/Microsoft_Fabric_2023.svg/revision/latest/scale-to-width-down/200?cb=20230528223239" alt="Microsoft Fabric Logo" class="w-10 h-10">
-        </div>
-        <h3 class="text-xl font-semibold text-slate-800 mb-3">Microsoft Fabric</h3>
-        <p class="text-slate-600 mb-4">Implementaciones end-to-end: OneLake, Deployment Pipelines, Semantic Models y publicación de apps.</p>
-        <div class="flex flex-wrap gap-2">
-            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs font-medium">OneLake</span>
-            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs font-medium">Pipelines</span>
-            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs font-medium">Semantic Model</span>
-            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs font-medium">Lakehouse</span>
-        </div>
+    <div class="scroll-reveal h-full"><div class="g-card h-full">
+        <div class="g-icon">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 3 8l9 5 9-5-9-5Z"/><path d="m3 12 9 5 9-5"/><path d="m3 16 9 5 9-5"/></svg>
     </div>
+        <h3>Microsoft Fabric</h3>
+        <p>Implementaciones end-to-end: OneLake, Deployment Pipelines, Semantic Models y publicación de apps.</p>
+        <div class="flex flex-wrap gap-2">
+            <span class="g-chip">OneLake</span>
+            <span class="g-chip">Pipelines</span>
+            <span class="g-chip">Semantic Model</span>
+            <span class="g-chip">Lakehouse</span>
+        </div>
+    </div></div>
 
     <!-- SQL Server & ETL -->
-    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 scroll-reveal">
-        <div class="w-16 h-16 bg-gray-100 rounded-lg flex items-center justify-center mb-6">
-            <img src="https://img.icons8.com/color/1200/microsoft-sql-server.jpg" alt="SQL Logo" class="w-12 h-12">
-        </div>
-        <h3 class="text-xl font-semibold text-slate-800 mb-3">SQL Server & ETL</h3>
-        <p class="text-slate-600 mb-4">Stored procedures complejos, diseño de warehouses con esquemas fact/dim, optimización de queries.</p>
-        <div class="flex flex-wrap gap-2">
-            <span class="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-xs font-medium">T-SQL</span>
-            <span class="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-xs font-medium">Stored Procs</span>
-            <span class="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-xs font-medium">Data Warehouse</span>
-            <span class="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-xs font-medium">ETL</span>
-        </div>
+    <div class="scroll-reveal h-full"><div class="g-card h-full">
+        <div class="g-icon">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.66 3.58 3 8 3s8-1.34 8-3V6"/><path d="M4 12v6c0 1.66 3.58 3 8 3s8-1.34 8-3v-6"/></svg>
     </div>
+        <h3>SQL Server & ETL</h3>
+        <p>Stored procedures complejos, diseño de warehouses con esquemas fact/dim, optimización de queries.</p>
+        <div class="flex flex-wrap gap-2">
+            <span class="g-chip">T-SQL</span>
+            <span class="g-chip">Stored Procs</span>
+            <span class="g-chip">Data Warehouse</span>
+            <span class="g-chip">ETL</span>
+        </div>
+    </div></div>
 
     <!-- Python & Fabric -->
-<div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 scroll-reveal">
-    <div class="w-16 h-16 bg-emerald-100 rounded-lg flex items-center justify-center mb-6">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Logo" class="w-10 h-10">
+<div class="scroll-reveal h-full"><div class="g-card h-full">
+    <div class="g-icon">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 8-4 4 4 4"/><path d="m16 8 4 4-4 4"/><path d="m13.5 5-3 14"/></svg>
     </div>
-    <h3 class="text-xl font-semibold text-slate-800 mb-3">Python & Fabric</h3>
-    <p class="text-slate-600 mb-4">Integración de Python con Microsoft Fabric mediante Semantic Link para análisis directo sobre modelos semánticos y validación de datos con pandas.</p>
+    <h3>Python & Fabric</h3>
+    <p>Integración de Python con Microsoft Fabric mediante Semantic Link para análisis directo sobre modelos semánticos y validación de datos con pandas.</p>
     <div class="flex flex-wrap gap-2">
-        <span class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-xs font-medium">pandas</span>
-        <span class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-xs font-medium">Semantic Link</span>
-        <span class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-xs font-medium">Fabric Notebooks</span>
-        <span class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-xs font-medium">Data Validation</span>
+        <span class="g-chip">pandas</span>
+        <span class="g-chip">Semantic Link</span>
+        <span class="g-chip">Fabric Notebooks</span>
+        <span class="g-chip">Data Validation</span>
     </div>
-</div>
+</div></div>
 
     <!-- Power Apps -->
-    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 scroll-reveal">
-        <div class="w-16 h-16 bg-indigo-100 rounded-lg flex items-center justify-center mb-6">
-            <img src="https://img.icons8.com/fluent/1200/microsoft-power-apps.jpg" alt="Power Apps Logo" class="w-12 h-12">
-        </div>
-        <h3 class="text-xl font-semibold text-slate-800 mb-3">Power Apps</h3>
-        <p class="text-slate-600 mb-4">Aplicaciones canvas para captura de datos, formularios y automatización de flujos de trabajo.</p>
-        <div class="flex flex-wrap gap-2">
-            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-xs font-medium">Canvas Apps</span>
-            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-xs font-medium">Power Automate</span>
-            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-xs font-medium">Dataverse</span>
-        </div>
+    <div class="scroll-reveal h-full"><div class="g-card h-full">
+        <div class="g-icon">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M9.5 7h5"/><path d="M9.5 11h5"/><path d="M11 18h2"/></svg>
     </div>
+        <h3>Power Apps</h3>
+        <p>Aplicaciones canvas para captura de datos, formularios y automatización de flujos de trabajo.</p>
+        <div class="flex flex-wrap gap-2">
+            <span class="g-chip">Canvas Apps</span>
+            <span class="g-chip">Power Automate</span>
+            <span class="g-chip">Dataverse</span>
+        </div>
+    </div></div>
 
     <!-- Visualización & BI -->
-<div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 scroll-reveal">
-    <div class="w-16 h-16 bg-amber-100 rounded-lg flex items-center justify-center mb-6">
-        <img src="https://cdn-icons-png.flaticon.com/512/2920/2920277.png" alt="Dashboard Icon" class="w-10 h-10">
+<div class="scroll-reveal h-full"><div class="g-card h-full">
+    <div class="g-icon">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="m7 15 4-5 3 3 5-7"/></svg>
     </div>
-    <h3 class="text-xl font-semibold text-slate-800 mb-3">Visualización & BI</h3>
-    <p class="text-slate-600 mb-4">Storytelling con datos, diseño de dashboards orientados a decisiones, KPIs y métricas de negocio.</p>
+    <h3>Visualización & BI</h3>
+    <p>Storytelling con datos, diseño de dashboards orientados a decisiones, KPIs y métricas de negocio.</p>
     <div class="flex flex-wrap gap-2">
-        <span class="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-xs font-medium">Dashboards</span>
-        <span class="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-xs font-medium">KPIs</span>
-        <span class="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-xs font-medium">Data Storytelling</span>
-    </div>
+        <span class="g-chip">Dashboards</span>
+        <span class="g-chip">KPIs</span>
+        <span class="g-chip">Data Storytelling</span>
+    </div></div>
 </div>
 
 </div>
+</div>
 </section>
+
+    <!-- Llamado a la acción -->
+    <section class="cta-band">
+        <div class="section-eyebrow">Contacto</div>
+        <h2 class="section-title scroll-reveal">Hablemos de tu <span class="gold-text">proyecto</span></h2>
+        <p class="section-lead max-w-xl mx-auto">Contame qué necesitás resolver con tus datos y vemos cómo encararlo.</p>
+        <div class="cta-actions">
+            <a href="contact.html" class="hero-btn-primary">Contactarme</a>
+            <a href="./assets/CV-Ricardo-Ugarte.pdf" data-href-en="./assets/CV-Ricardo-Ugarte-EN.pdf" class="hero-btn-secondary" target="_blank" rel="noopener">Descargar CV</a>
+        </div>
+    </section>
 
 
 
     <!-- Footer -->
-    <footer style="background:#0f172a; color:#f1f5f9; padding: 48px 0 0;">
+    <footer class="site-footer" style="padding:56px 0 0;">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
-            <!-- 3 column grid -->
-            <div style="display:grid; grid-template-columns: 2fr 1fr 1fr; gap: 48px; padding-bottom: 40px;">
-
-                <!-- Brand column -->
+            <div class="f-grid">
                 <div>
-                    <div style="display:flex; align-items:center; gap:12px; margin-bottom:16px;">
-                        <img src="./resources/profile-photo.jpg" alt="Ricardo Ugarte"
-                             style="width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid #2563eb;">
-                        <div>
-                            <div style="font-size:1.1rem;font-weight:800;">Ricardo <span style="color:#3b82f6;">Ugarte</span></div>
-                            <div style="font-size:0.75rem;color:#64748b;">Data Analyst </div>
-                        </div>
-                    </div>
-                    <p style="font-size:0.85rem;color:#64748b;line-height:1.7;margin-bottom:20px;max-width:280px;">
-                        Uso herramientas como Microsoft Fabric, Power BI, DAX y SQL Server.
-                        Trabajo con empresas para convertir datos en decisiones claras.
+                    <a href="index.html" class="brand-mark" style="margin-bottom:16px;" aria-label="Ricardo Ugarte, inicio">
+                        <img src="./brand/logo-monogram.png" alt="" width="44" height="44" loading="lazy" style="width:44px;height:44px;">
+                        <span>Ricardo Ugarte</span>
+                    </a>
+                    <p style="font-size:0.85rem;color:var(--muted);line-height:1.7;margin-bottom:20px;max-width:300px;">
+                        Data Analyst. Trabajo con Microsoft Fabric, Power BI, DAX y SQL Server
+                        para que las empresas decidan con sus datos.
                     </p>
                     <div style="display:flex;gap:10px;">
-                        <a href="https://www.linkedin.com/in/ricardo-ugarte" target="_blank"
-                           style="width:36px;height:36px;border-radius:8px;background:#1e293b;border:1px solid #334155;display:flex;align-items:center;justify-content:center;transition:border-color 0.2s;"
-                           title="LinkedIn">
-                            <svg width="16" height="16" fill="#3b82f6" viewBox="0 0 24 24">
-                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
-                            </svg>
+                        <a href="https://www.linkedin.com/in/ricardo-ugarte" target="_blank" rel="noopener" class="f-social" aria-label="LinkedIn">
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
                         </a>
-                        <a href="mailto:info@nudatabi.com"
-                           style="width:36px;height:36px;border-radius:8px;background:#1e293b;border:1px solid #334155;display:flex;align-items:center;justify-content:center;"
-                           title="Email">
-                            <svg width="16" height="16" fill="#64748b" viewBox="0 0 24 24">
-                                <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-                            </svg>
+                        <a href="https://github.com/Ricardo-Ugarte" target="_blank" rel="noopener" class="f-social" aria-label="GitHub">
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+                        </a>
+                        <a href="mailto:rugarte@nudatabi.com" class="f-social" aria-label="Email">
+                            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
                         </a>
                     </div>
                 </div>
-
-                <!-- Servicios column -->
                 <div>
-                    <div style="font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:#94a3b8;margin-bottom:16px;">Servicios</div>
-                    <a href="portfolio.html" style="display:block;font-size:0.875rem;color:#64748b;margin-bottom:10px;text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='#94a3b8'" onmouseout="this.style.color='#64748b'">Power BI</a>
-                    <a href="portfolio.html" style="display:block;font-size:0.875rem;color:#64748b;margin-bottom:10px;text-decoration:none;" onmouseover="this.style.color='#94a3b8'" onmouseout="this.style.color='#64748b'">Microsoft Fabric</a>
-                    <a href="portfolio.html" style="display:block;font-size:0.875rem;color:#64748b;margin-bottom:10px;text-decoration:none;" onmouseover="this.style.color='#94a3b8'" onmouseout="this.style.color='#64748b'">SQL &amp; DAX</a>
-                    <a href="portfolio.html" style="display:block;font-size:0.875rem;color:#64748b;margin-bottom:10px;text-decoration:none;" onmouseover="this.style.color='#94a3b8'" onmouseout="this.style.color='#64748b'">Desarrollo Web &amp; CRM</a>
+                    <div class="f-head">Servicios</div>
+                    <a href="portfolio.html" class="f-link">Power BI</a>
+                    <a href="portfolio.html" class="f-link">Microsoft Fabric</a>
+                    <a href="portfolio.html" class="f-link">SQL &amp; DAX</a>
+                    <a href="portfolio.html" class="f-link">Desarrollo Web &amp; CRM</a>
                 </div>
-
-                <!-- Navegación column -->
                 <div>
-                    <div style="font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:#94a3b8;margin-bottom:16px;">Navegación</div>
-                    <a href="index.html"   style="display:block;font-size:0.875rem;color:#64748b;margin-bottom:10px;text-decoration:none;" onmouseover="this.style.color='#94a3b8'" onmouseout="this.style.color='#64748b'">Inicio</a>
-                    <a href="about.html"   style="display:block;font-size:0.875rem;color:#64748b;margin-bottom:10px;text-decoration:none;" onmouseover="this.style.color='#94a3b8'" onmouseout="this.style.color='#64748b'">Acerca de</a>
-                    <a href="portfolio.html" style="display:block;font-size:0.875rem;color:#64748b;margin-bottom:10px;text-decoration:none;" onmouseover="this.style.color='#94a3b8'" onmouseout="this.style.color='#64748b'">Portfolio</a>
-                    <a href="blog.html"    style="display:block;font-size:0.875rem;color:#64748b;margin-bottom:10px;text-decoration:none;" onmouseover="this.style.color='#94a3b8'" onmouseout="this.style.color='#64748b'">Blog</a>
-                    <a href="contact.html" style="display:block;font-size:0.875rem;color:#64748b;text-decoration:none;" onmouseover="this.style.color='#94a3b8'" onmouseout="this.style.color='#64748b'">Contacto</a>
+                    <div class="f-head">Navegación</div>
+                    <a href="index.html" class="f-link">Inicio</a>
+                    <a href="about.html" class="f-link">Acerca de</a>
+                    <a href="portfolio.html" class="f-link">Portfolio</a>
+                    <a href="blog.html" class="f-link">Blog</a>
+                    <a href="contact.html" class="f-link">Contacto</a>
                 </div>
             </div>
-
-            <!-- Bottom bar -->
-            <div style="border-top:1px solid #1e293b; padding: 20px 0; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
-                <p style="font-size:0.8rem;color:#475569;">
-                    © 2025 <span style="color:#3b82f6;">Ricardo Ugarte</span> · Data Analyst 
-                </p>
-                <div style="display:flex;gap:8px;">
-                    <span style="background:#1e293b;border:1px solid #334155;padding:3px 10px;border-radius:5px;font-size:0.72rem;color:#64748b;">Power BI</span>
-                    <span style="background:#1e293b;border:1px solid #334155;padding:3px 10px;border-radius:5px;font-size:0.72rem;color:#64748b;">MS Fabric</span>
-                    <span style="background:#1e293b;border:1px solid #334155;padding:3px 10px;border-radius:5px;font-size:0.72rem;color:#64748b;">DAX</span>
-                    <span style="background:#1e293b;border:1px solid #334155;padding:3px 10px;border-radius:5px;font-size:0.72rem;color:#64748b;">Node.js</span>
-                </div>
+            <div style="border-top:1px solid var(--line);padding:20px 0;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;">
+                <p style="font-size:0.8rem;color:var(--muted);">© 2026 <span style="color:var(--gold);">Ricardo Ugarte</span> · Data Analyst</p>
+                <p style="font-size:0.8rem;color:var(--muted);">Vicente López, Buenos Aires</p>
             </div>
-
         </div>
     </footer>
 
 
     
 
-    <script src="./main.js"></script>
+    <script src="./main.js" defer></script>
+    <script src="./brand.js" defer></script>
+    <script src="./i18n.js" defer></script>
     <script>
       // Mobile menu
       document.addEventListener('DOMContentLoaded', function() {

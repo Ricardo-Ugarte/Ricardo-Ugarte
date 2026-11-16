@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initMobileMenu();
     initSmoothScroll();
     initParticles();
-    initTypedText();
+    // initTypedText(); // el inicio ya lo inicializa en su propio script
     initHeroChart();
     initScrollReveal();
     initSkillBars();
