@@ -266,3 +266,10 @@ html { overflow-x: clip; }
 .lang-toggle span { padding: 6px 10px; border-radius: 999px; color: #b9b5aa; transition: background 0.25s ease, color 0.25s ease; }
 .lang-toggle span.is-on { background: var(--gold-grad); color: #17130a; }
 .lang-toggle:hover span:not(.is-on) { color: var(--gold-hi); }
+
+/* modalidad de trabajo junto a la empresa (Acerca de) */
+.tl-mode {
+  display: inline-block; margin-left: 8px; padding: 2px 9px; border-radius: 999px; vertical-align: middle;
+  font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--gold-hi); border: 1px solid var(--line-strong); background: rgba(201, 162, 75, 0.06);
+}

@@ -1,6 +1,6 @@
 // Cambio de idioma ES / EN.
-// El español vive en el HTML; acá está el diccionario al inglés.
-// Si editás un texto en español, actualizá también su clave acá:
+// El español vive en el HTML; aquí está el diccionario al inglés.
+// Si editas un texto en español, actualiza también su clave aquí:
 // una clave que no coincide deja ese texto en español.
 (function () {
   var EN = {
@@ -28,8 +28,8 @@
     'Storytelling con datos, diseño de dashboards orientados a decisiones, KPIs y métricas de negocio.':
       'Data storytelling, decision-oriented dashboard design, KPIs and business metrics.',
     'Hablemos de tu': "Let's talk about your", 'proyecto': 'project',
-    'Contame qué necesitás resolver con tus datos y vemos cómo encararlo.':
-      "Tell me what you need to solve with your data and we'll work out how to approach it.",
+    'Cuéntame qué necesitas resolver con tus datos y te propongo cómo abordarlo.':
+      "Tell me what you need to solve with your data and I'll propose how to approach it.",
     'Descargar CV': 'Download CV',
     // maquetas del inicio
     'app.powerbi.com · Reporte de Ventas': 'app.powerbi.com · Sales Report', 'Ventas · Resumen': 'Sales · Overview',
@@ -207,8 +207,8 @@
       'When building visuals for regional or global analysis, flags make countries easier to identify. However, getting and maintaining those assets by hand can be impractical.',
     'Leer Más →': 'Read more →', '(artículo en español)': '(article in Spanish)',
     // contacto
-    'Póngase en contacto': 'Get in touch',
-    'Transformemos tus datos en información procesable. Analicemos cómo podemos trabajar juntos para lograr sus objetivos comerciales.':
+    'Ponte en contacto': 'Get in touch',
+    'Transformemos tus datos en información procesable. Analicemos cómo podemos trabajar juntos para lograr tus objetivos comerciales.':
       "Let's turn your data into actionable information. Let's look at how we can work together to reach your business goals.",
     'Para consultas sobre proyectos y colaboraciones': 'For project inquiries and collaborations',
     'Para consultas rápidas y comunicación directa': 'For quick questions and direct communication', 'Conéctate conmigo': 'Connect with me',
@@ -220,13 +220,14 @@
     'Gracias por contactarme. Me pondré en contacto contigo dentro de 24 horas.': "Thanks for reaching out. I'll get back to you within 24 hours.",
     'Mi enfoque de los proyectos de análisis de datos garantiza el éxito desde el descubrimiento hasta la implementación':
       'How I run data analysis projects, from discovery through implementation',
-    'Diagnóstico': 'Assessment', 'Comprender sus objetivos comerciales, fuentes de datos y requisitos analíticos': 'Understanding your business goals, data sources and analytical requirements',
+    'Diagnóstico': 'Assessment', 'Comprender tus objetivos comerciales, fuentes de datos y requisitos analíticos': 'Understanding your business goals, data sources and analytical requirements',
     'Estrategia': 'Strategy', 'Desarrollo de una estrategia de análisis integral y una arquitectura de soluciones': 'Defining an analytics strategy and a solution architecture',
     'Implementación': 'Implementation', 'Desarrollo e implementación de soluciones de datos y mejoramiento interactivo.': 'Building and deploying data solutions, with iterative improvement.',
     'Soporte': 'Support', 'Proporcionar servicios continuos de asistencia, formación y optimización.': 'Ongoing support, training and optimization.',
     // atributos
     '¿Cómo te llamas?': "What's your name?", 'tu@empresa.com': 'you@company.com', 'Nombre de tu empresa': 'Your company name',
     "Ej: 'Pasamos 2 días semanales consolidando reportes de ventas en Excel' o 'No tenemos visibilidad en tiempo real del inventario'": "E.g. 'We spend 2 days a week consolidating sales reports in Excel' or 'We have no real-time visibility of inventory'",
+    'Remoto': 'Remote', 'Híbrido': 'Hybrid', 'Presencial': 'On-site',
     'Abrir menú': 'Open menu', 'Ricardo Ugarte, inicio': 'Ricardo Ugarte, home', 'Cambiar idioma': 'Change language',
     // títulos de pestaña
     'Ricardo Ugarte · Data Analyst · Microsoft Fabric y Power BI': 'Ricardo Ugarte · Data Analyst · Microsoft Fabric & Power BI',
