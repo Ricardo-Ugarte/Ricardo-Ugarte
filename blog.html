@@ -6,7 +6,7 @@
     <title>Blog · Ricardo Ugarte</title>
     <meta name="description" content="Artículos y aportes a la comunidad sobre Power BI, Power Apps y Microsoft Fabric.">
     <link rel="canonical" href="https://ricardo-ugarte.github.io/Ricardo-Ugarte/blog.html">
-    <meta name="theme-color" content="#0b0d12">
+    <meta name="theme-color" content="#18181b">
     <link rel="icon" type="image/png" href="./brand/favicon.png">
     <link rel="apple-touch-icon" href="./brand/apple-touch-icon.png">
     <meta property="og:type" content="website">
@@ -141,21 +141,21 @@
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.05em;
-            color: #9a7230;
+            color: #8c6a3c;
             margin-bottom: 6px;
         }
 
         .tl-role {
             font-size: 1.25rem;
             font-weight: 700;
-            color: #2b2219;
+            color: #1f1f22;
             margin-bottom: 2px;
         }
 
         .tl-company {
             font-size: 1rem;
             font-weight: 600;
-            color: #6b5b48;
+            color: #5c5852;
             margin-bottom: 16px;
         }
 
@@ -167,7 +167,7 @@
 
         .tl-list li {
             font-size: 0.875rem;
-            color: #2b2219;
+            color: #1f1f22;
             margin-bottom: 8px;
             padding-left: 20px;
             position: relative;
@@ -178,7 +178,7 @@
             content: '▹';
             position: absolute;
             left: 0;
-            color: #9a7230;
+            color: #8c6a3c;
             font-weight: bold;
         }
 
@@ -189,8 +189,8 @@
         }
 
         .tl-tag {
-            background: #fffaf1;
-            color: #2b2219;
+            background: #fffdf9;
+            color: #1f1f22;
             font-size: 0.7rem;
             font-weight: 600;
             padding: 4px 10px;
@@ -204,7 +204,7 @@
         .skill-bar-bg {
             width: 100%;
             height: 8px;
-            background: #eadcc3;
+            background: #e4ddd0;
             border-radius: 10px;
             overflow: hidden;
         }
@@ -219,7 +219,7 @@
 
         /* ESTILOS PARA CERTIFICADOS */
         .cert-card {
-            background: #fffaf1;
+            background: #fffdf9;
             padding: 16px;
             border-radius: 16px;
             border: 1px solid rgba(201,162,75,0.18);
@@ -247,20 +247,20 @@
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.05em;
-            color: #9a7230;
+            color: #8c6a3c;
             margin-bottom: 4px;
         }
 
         .cert-title {
             font-weight: 700;
-            color: #2b2219;
+            color: #1f1f22;
             margin-bottom: 2px;
             font-size: 0.95rem;
         }
 
         .cert-issuer {
             font-size: 0.75rem;
-            color: #6b5b48;
+            color: #5c5852;
         }
 
         @media (max-width: 768px) {
@@ -284,10 +284,10 @@
                 <div class="flex items-center gap-5 lg:gap-7">
                 <div class="hidden lg:flex space-x-7">
                     <a href="index.html" class="nav-link">Inicio</a>
-                    <a href="about.html" class="nav-link">Acerca de</a>
-                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                    <a href="soluciones.html" class="nav-link">Soluciones</a>
                     <a href="casos.html" class="nav-link">Casos de éxito</a>
-                    <a href="blog.html" class="nav-link" aria-current="page">Blog</a>
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                    <a href="about.html" class="nav-link">Sobre mí</a>
                     <a href="contact.html" class="nav-link">Contacto</a>
                 </div>
                     <button type="button" class="lang-toggle" aria-label="Cambiar idioma" aria-pressed="false" data-no-i18n>
@@ -306,26 +306,30 @@
         <div id="mobile-menu" class="hidden lg:hidden">
             <div class="px-4 py-2 space-y-2">
                 <a href="index.html" class="block py-2">Inicio</a>
-                <a href="about.html" class="block py-2">Acerca de</a>
-                <a href="portfolio.html" class="block py-2">Portfolio</a>
+                <a href="soluciones.html" class="block py-2">Soluciones</a>
                 <a href="casos.html" class="block py-2">Casos de éxito</a>
-                <a href="blog.html" class="block py-2">Blog</a>
+                <a href="portfolio.html" class="block py-2">Portfolio</a>
+                <a href="about.html" class="block py-2">Sobre mí</a>
                 <a href="contact.html" class="block py-2">Contacto</a>
             </div>
         </div>
     </nav>
 
-    
-            </div>
+    <!-- Encabezado -->
+    <header class="case-hero">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="section-eyebrow hero-in">Blog</div>
+            <h1 class="case-title hero-in">Lo que aprendo <span class="gold-text">implementando</span></h1>
+            <p class="case-lead hero-in">Artículos técnicos basados en problemas reales que resolví en proyectos con Power BI, Power Apps y Microsoft Fabric.</p>
         </div>
-    </section>
+    </header>
 
 
    <!-- Artículo Destacado -->
 <section class="py-16 bg-slate-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12 scroll-reveal">
-            <h1 class="text-3xl font-bold text-slate-800 mb-4">Artículo destacado</h1>
+            <h2 class="text-3xl font-bold text-slate-800 mb-4">Artículo destacado</h2>
         </div>
         
         <div class="bg-white rounded-2xl shadow-xl overflow-hidden scroll-reveal">
@@ -415,7 +419,10 @@
         </div>
     </div>
 </article>
+            </div>
+        </div>
     </section>
+
     <!-- Footer -->
     <footer class="site-footer" style="padding:56px 0 0;">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -425,6 +432,7 @@
                         <img src="./brand/logo-monogram.png" alt="" width="44" height="44" loading="lazy" style="width:44px;height:44px;">
                         <span>Ricardo Ugarte</span>
                     </a>
+                    <div class="f-descriptor">Technology &amp; Data Solutions</div>
                     <p style="font-size:0.85rem;color:var(--muted);line-height:1.7;margin-bottom:20px;max-width:300px;">
                         Diseño y desarrollo soluciones de datos de punta a punta en Microsoft Fabric: arquitectura y bases de datos, aplicaciones de gestión, automatización y reportes de Power BI.
                     </p>
@@ -442,17 +450,19 @@
                 </div>
                 <div>
                     <div class="f-head">Servicios</div>
-                    <a href="portfolio.html" class="f-link">Power BI</a>
-                    <a href="portfolio.html" class="f-link">Microsoft Fabric</a>
-                    <a href="portfolio.html" class="f-link">SQL &amp; DAX</a>
-                    <a href="portfolio.html" class="f-link">Desarrollo Web &amp; CRM</a>
+                    <a href="soluciones.html#datos" class="f-link">Arquitectura e ingeniería de datos</a>
+                    <a href="soluciones.html#fabric" class="f-link">Microsoft Fabric</a>
+                    <a href="soluciones.html#bi" class="f-link">Business Intelligence</a>
+                    <a href="soluciones.html#aplicaciones" class="f-link">Aplicaciones empresariales</a>
+                    <a href="soluciones.html#automatizacion" class="f-link">Automatización e IA</a>
                 </div>
                 <div>
                     <div class="f-head">Navegación</div>
                     <a href="index.html" class="f-link">Inicio</a>
-                    <a href="about.html" class="f-link">Acerca de</a>
-                    <a href="portfolio.html" class="f-link">Portfolio</a>
+                    <a href="soluciones.html" class="f-link">Soluciones</a>
                     <a href="casos.html" class="f-link">Casos de éxito</a>
+                    <a href="portfolio.html" class="f-link">Portfolio</a>
+                    <a href="about.html" class="f-link">Sobre mí</a>
                     <a href="blog.html" class="f-link">Blog</a>
                     <a href="contact.html" class="f-link">Contacto</a>
                 </div>

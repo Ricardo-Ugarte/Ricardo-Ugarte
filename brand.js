@@ -123,8 +123,8 @@
 // Logos oficiales en el stack: si el archivo existe en assets/logos se muestra;
 // si no, queda el ícono dibujado.
 (function () {
-  document.querySelectorAll('.g-logo').forEach(function (img) {
-    function ok() { if (img.naturalWidth > 0) img.parentNode.classList.add('has-logo'); }
+  document.querySelectorAll('.g-logo, .badge-logo').forEach(function (img) {
+    function ok() { if (img.naturalWidth > 0) { img.classList.add('is-loaded'); img.parentNode.classList.add('has-logo'); } }
     if (img.complete) ok(); else img.addEventListener('load', ok);
     img.addEventListener('error', function () { img.remove(); });
   });
