@@ -119,3 +119,13 @@
   sync();
   new MutationObserver(sync).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
 })();
+
+// Logos oficiales en el stack: si el archivo existe en assets/logos se muestra;
+// si no, queda el ícono dibujado.
+(function () {
+  document.querySelectorAll('.g-logo').forEach(function (img) {
+    function ok() { if (img.naturalWidth > 0) img.parentNode.classList.add('has-logo'); }
+    if (img.complete) ok(); else img.addEventListener('load', ok);
+    img.addEventListener('error', function () { img.remove(); });
+  });
+})();

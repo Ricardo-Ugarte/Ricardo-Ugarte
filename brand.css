@@ -218,7 +218,7 @@ body.brand .border-slate-200, body.brand .border-slate-300, body.brand .border-g
 body.brand .border-blue-600 { border-color: var(--gold); }
 
 /* chips y círculos de ícono en tonos pastel */
-body.brand [class*="bg-"][class*="-100"] { background: rgba(201, 162, 75, 0.08); border: 1px solid var(--line); }
+body.brand [class*="bg-"][class*="-100"]:not(.bg-gradient-to-br) { background: rgba(201, 162, 75, 0.08); border: 1px solid var(--line); }
 body.brand [class*="text-"][class*="-800"]:not(.text-slate-800) { color: #d8cba2; }
 body.brand .bg-green-50 { background: rgba(201, 162, 75, 0.06); }
 
@@ -372,3 +372,165 @@ video::cue {
   background: rgba(11, 13, 18, 0.82); color: #f6f2e8;
   font-family: 'Inter', sans-serif; font-size: 1.05rem; line-height: 1.45;
 }
+
+/* ============================================================
+   TEMA CÁLIDO (inspirado en el banner de YouTube)
+   Zonas oscuras en madera: menú, portadas, llamados a la acción
+   y pie. Contenido sobre crema y papel. Este bloque va al final
+   y reemplaza los colores del tema oscuro de arriba.
+   ============================================================ */
+:root {
+  --espresso: #2a211a;
+  --wood: #3a2f25;
+  --wood-2: #4c3f30;
+  --taupe: #7b674e;
+  --cream: #f6efe2;
+  --sand: #efe4d0;
+  --paper: #fffaf1;
+  --w-ink: #2b2219;
+  --w-soft: #6b5b48;
+  --w-mute: #8a7a64;
+  --w-line: #e6d6b8;
+  --w-gold: #9a7230;
+  --gold: #b88d43;
+  --gold-hi: #e8c98a;
+  --gold-deep: linear-gradient(100deg, #7a5a22 0%, #a57d36 35%, #c69a4c 50%, #a57d36 65%, #7a5a22 100%);
+  --wood-tex:
+    repeating-linear-gradient(90deg, rgba(0,0,0,0) 0 118px, rgba(0,0,0,0.16) 118px 120px, rgba(255,255,255,0.025) 120px 121px),
+    radial-gradient(70% 90% at 50% 45%, rgba(184,141,67,0.22) 0%, transparent 70%),
+    linear-gradient(90deg, #2a211a 0%, #40342a 30%, #5e4d3a 50%, #40342a 70%, #2a211a 100%);
+}
+
+body.brand { background: var(--cream); color: var(--w-ink); }
+body.brand ::selection { background: rgba(184, 141, 67, 0.35); color: var(--w-ink); }
+
+/* menú */
+body.brand nav.site-nav, body.brand nav.site-nav.is-scrolled {
+  background: rgba(42, 33, 26, 0.94); border-bottom: 1px solid rgba(232, 201, 138, 0.18);
+}
+body.brand .nav-link { color: #e6dccb; }
+body.brand #mobile-menu { background: var(--espresso); }
+body.brand #mobile-menu a { color: #e6dccb; }
+
+/* portadas en madera */
+body.brand .hero-particles, .case-hero, body.brand .bg-gradient-to-br, .cta-band { background: var(--wood-tex); }
+body.brand .hero-particles::before { background: radial-gradient(80% 60% at 50% 120%, rgba(42,33,26,0.7), transparent 70%); }
+.case-hero, body.brand .bg-gradient-to-br { border-bottom: 1px solid rgba(232, 201, 138, 0.2); }
+.cta-band { border-top: 0; }
+.cta-band::before { background: radial-gradient(closest-side, rgba(232, 201, 138, 0.18), transparent); }
+
+/* textos dentro de las zonas de madera */
+body.brand .hero-particles h1, .case-hero h1, .cta-band h2,
+body.brand .bg-gradient-to-br h1, body.brand .bg-gradient-to-br h2,
+body.brand .bg-gradient-to-br .text-slate-800 { color: #f6efe2; text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3); }
+body.brand .hero-sub, .case-lead, .case-kicker, .cta-band .section-lead,
+body.brand .bg-gradient-to-br p, body.brand .bg-gradient-to-br .text-slate-600 { color: #e2d6c1; }
+.case-hero .section-eyebrow, .cta-band .section-eyebrow { color: var(--gold-hi); }
+.case-hero .section-eyebrow::before, .case-hero .section-eyebrow::after,
+.cta-band .section-eyebrow::before, .cta-band .section-eyebrow::after { background: rgba(232, 201, 138, 0.5); }
+body.brand .hero-btn-secondary { border-color: rgba(246, 239, 226, 0.6); color: #f6efe2; }
+body.brand .hero-btn-secondary:hover { background: rgba(246, 239, 226, 0.1); }
+.case-hero .case-metric { background: rgba(42, 33, 26, 0.55); border-color: rgba(232, 201, 138, 0.28); backdrop-filter: blur(4px); }
+.case-hero .case-metric-label { color: #d8ccb6; }
+.case-hero .case-metric-value { color: #f6efe2; }
+.case-hero .case-metric-value s { color: #a8987e; }
+body.brand .bg-gradient-to-br [class*="bg-"][class*="-100"] { background: rgba(42, 33, 26, 0.45); border-color: rgba(232, 201, 138, 0.3); }
+body.brand .bg-gradient-to-br [class*="text-"][class*="-800"]:not(.text-slate-800) { color: var(--gold-hi); }
+
+/* secciones claras */
+body.brand .section-dark, body.brand section.bg-slate-50 { background: var(--sand); }
+body.brand section.bg-white, .case-section:not(.section-dark), .warm-section { background: var(--cream); }
+body.brand h1, body.brand h2, body.brand .section-title { color: var(--w-ink); }
+body.brand .section-lead { color: var(--w-soft); }
+.section-eyebrow { color: var(--w-gold); }
+.section-eyebrow::before, .section-eyebrow::after { background: rgba(154, 114, 48, 0.45); }
+body.brand .gold-text { background: var(--gold-deep); background-size: 220% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; }
+body.brand .hero-particles .gold-text, body.brand .hero-h1 span, .case-hero .gold-text, .cta-band .gold-text {
+  background: var(--gold-grad); background-size: 220% 100%; -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+
+/* tarjetas */
+.g-card, body.brand :not(section).bg-white, body.brand :not(section).bg-slate-50 {
+  background: var(--paper); border: 1px solid var(--w-line);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8) inset, 0 12px 30px -22px rgba(74, 56, 36, 0.45);
+}
+.g-card::before { background: radial-gradient(340px circle at var(--mx) var(--my), rgba(184, 141, 67, 0.12), transparent 62%); }
+.g-card:hover, body.brand .g-spot:hover { border-color: var(--gold); box-shadow: 0 22px 44px -24px rgba(74, 56, 36, 0.55); }
+.g-spot::after { background: radial-gradient(360px circle at var(--mx) var(--my), rgba(184, 141, 67, 0.1), transparent 62%); }
+.g-card h3 { color: var(--w-ink); font-weight: 700; }
+.g-card p { color: var(--w-soft); }
+.g-icon { position: relative; background: linear-gradient(145deg, #3a2f25, #2a211a); border: 0; color: var(--gold-hi); }
+.g-chip { color: #6a4f24; background: #f1e4cb; border: 0; font-weight: 600; }
+
+/* logos oficiales: se muestran solo si el archivo existe en assets/logos */
+.g-logo { display: none; width: 34px; height: 34px; object-fit: contain; }
+.g-icon.has-logo { background: #fff; border: 1px solid var(--w-line); }
+.g-icon.has-logo svg { display: none; }
+.g-icon.has-logo .g-logo { display: block; }
+
+/* utilidades de Tailwind en páginas internas */
+body.brand .text-slate-800, body.brand .text-slate-700, body.brand .text-slate-900 { color: var(--w-ink); }
+body.brand .text-slate-600 { color: var(--w-soft); }
+body.brand .text-slate-500, body.brand .text-slate-400 { color: var(--w-mute); }
+body.brand [class*="text-blue-"], body.brand .text-green-600, body.brand .text-purple-600, body.brand .text-amber-600 { color: var(--w-gold); }
+body.brand [class*="hover:text-blue-"]:hover { color: #6e511f; }
+body.brand .border-slate-200, body.brand .border-slate-300, body.brand .border-green-200 { border-color: var(--w-line); }
+body.brand [class*="bg-"][class*="-100"]:not(.bg-gradient-to-br) { background: #f1e4cb; border: 0; }
+body.brand [class*="text-"][class*="-800"]:not(.text-slate-800) { color: #6a4f24; }
+body.brand .bg-green-50 { background: #f6ecd9; }
+
+/* formularios */
+body.brand input, body.brand textarea, body.brand select { background: #fff; color: var(--w-ink); border: 1px solid #dcc9a6; }
+body.brand input::placeholder, body.brand textarea::placeholder { color: #a8987e; }
+body.brand input:focus, body.brand textarea:focus, body.brand select:focus { border-color: var(--gold); box-shadow: 0 0 0 3px rgba(184, 141, 67, 0.22); }
+body.brand label { color: var(--w-ink); }
+
+/* acerca de: etiqueta de modalidad */
+.tl-mode { color: #6a4f24; border-color: #dcc9a6; background: #f1e4cb; }
+
+/* casos de éxito y caso destacado */
+.case-metric { background: var(--paper); border-color: var(--w-line); }
+.case-metric-label { color: var(--w-soft); }
+.case-metric-value { color: var(--w-ink); }
+.case-metric-value s { color: #b3a389; }
+.case-metric-value span { color: var(--gold); }
+.case-video { border: 8px solid var(--espresso); box-shadow: 0 40px 70px -35px rgba(42, 33, 26, 0.8); }
+.case-note, .case-shot figcaption { color: var(--w-soft); }
+.case-list li { color: var(--w-ink); border-bottom-color: var(--w-line); }
+.case-flow li { background: var(--paper); border-color: #dcc9a6; color: var(--w-ink); }
+.case-flow li::before, .case-flow li:not(:last-child)::after { color: var(--w-gold); }
+.case-zoom { border-color: var(--w-line); }
+.case-zoom:hover { border-color: var(--gold); box-shadow: 0 22px 44px -24px rgba(74, 56, 36, 0.55); }
+.case-banner { background: linear-gradient(100deg, #f1e4cb, var(--paper) 60%); border-color: #dcc9a6; }
+.case-banner-tag { color: var(--w-gold); }
+.case-banner-title { color: var(--w-ink); }
+.case-banner-go { color: var(--w-gold); }
+.case-banner:hover { box-shadow: 0 20px 44px -26px rgba(74, 56, 36, 0.6); }
+.warm-section .hero-btn-primary { background: var(--espresso); color: var(--gold-hi); box-shadow: none; }
+.warm-section .hero-btn-primary:hover { background: var(--wood); }
+
+/* pie */
+body.brand footer.site-footer { background: var(--espresso); border-top: 0; color: #cfc3ad; }
+body.brand footer.site-footer a.f-link { color: #cfc3ad; }
+body.brand footer.site-footer p { color: #cfc3ad !important; }
+.f-social { background: var(--wood); border-color: rgba(232, 201, 138, 0.25); }
+a:focus-visible, button:focus-visible { outline-color: var(--w-gold); }
+
+/* textos sobre madera: misma prioridad que las reglas generales, declarados después */
+body.brand .hero-particles h1, body.brand .case-hero h1, body.brand .cta-band h2, body.brand .cta-band .section-title,
+body.brand .bg-gradient-to-br h1, body.brand .bg-gradient-to-br h2, body.brand .bg-gradient-to-br .text-slate-800 {
+  color: #f6efe2; text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+body.brand .cta-band .section-lead, body.brand .case-hero .case-lead, body.brand .case-hero .case-kicker,
+body.brand .bg-gradient-to-br p, body.brand .bg-gradient-to-br .text-slate-600 { color: #e2d6c1; }
+body.brand .bg-gradient-to-br .section-eyebrow { color: var(--gold-hi); }
+/* dorado más luminoso sobre madera, para que se lea */
+body.brand .hero-particles .gold-text, body.brand .hero-h1 span, body.brand .case-hero .gold-text, body.brand .cta-band .gold-text {
+  background: linear-gradient(100deg, #d9b465 0%, #f3e0b0 30%, #fff3d2 50%, #f3e0b0 70%, #d9b465 100%);
+  background-size: 220% 100%; -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+/* etiquetas dentro de las portadas en madera */
+body.brand .bg-gradient-to-br [class*="bg-"][class*="-100"]:not(.bg-gradient-to-br) {
+  background: rgba(42, 33, 26, 0.5); border: 1px solid rgba(232, 201, 138, 0.35);
+}
+body.brand .bg-gradient-to-br [class*="text-"][class*="-800"]:not(.text-slate-800):not(.bg-gradient-to-br) { color: var(--gold-hi); }

@@ -224,6 +224,19 @@
     'Estrategia': 'Strategy', 'Desarrollo de una estrategia de análisis integral y una arquitectura de soluciones': 'Defining an analytics strategy and a solution architecture',
     'Implementación': 'Implementation', 'Desarrollo e implementación de soluciones de datos y mejoramiento interactivo.': 'Building and deploying data solutions, with iterative improvement.',
     'Soporte': 'Support', 'Proporcionar servicios continuos de asistencia, formación y optimización.': 'Ongoing support, training and optimization.',
+    'Aplicaciones de gestión construidas dentro de Microsoft Fabric con el SDK Rayfin, sobre los mismos datos que usan los reportes.':
+      'Business applications built inside Microsoft Fabric with the Rayfin SDK, on the same data the reports use.',
+    'Bases de datos SQL Server y SQL database en Fabric: modelado de tablas, stored procedures y consultas que alimentan aplicaciones y reportes.':
+      'SQL Server and SQL database in Fabric: table modeling, stored procedures and queries that feed applications and reports.',
+    'Python integrado con Microsoft Fabric mediante Semantic Link para análisis directo sobre modelos semánticos y validación de datos con pandas.':
+      'Python integrated with Microsoft Fabric through Semantic Link for analysis directly on semantic models and data validation with pandas.',
+    'Soluciones de datos · Microsoft Fabric': "Data solutions · Microsoft Fabric",
+    'Ingeniero de formación, construyo soluciones de datos de punta a punta.': "Engineer by training, I build end-to-end data solutions.",
+    'Diseño y construyo soluciones de datos de punta a punta en Microsoft Fabric: base de datos, modelo semántico, aplicaciones y reportes de Power BI.': "I design and build end-to-end data solutions on Microsoft Fabric: database, semantic model, applications and Power BI reports.",
+    'Ingeniero civil de formación. Diseño y construyo soluciones de datos de punta a punta en el ecosistema Microsoft — Microsoft Fabric, Power BI y SQL Server. Trabajo de forma independiente facilitando a las empresas la transformación de sus datos en herramientas concretas para la toma de decisiones.': "Civil engineer by training. I design and build end-to-end data solutions in the Microsoft ecosystem — Microsoft Fabric, Power BI and SQL Server. I work independently, helping companies turn their data into concrete tools for decision-making.",
+    'Microsoft Fabric y Power BI': "Microsoft Fabric and Power BI",
+    'Ricardo Ugarte · Soluciones de datos en Microsoft Fabric y Power BI': "Ricardo Ugarte · Data solutions on Microsoft Fabric and Power BI",
+    "Diseño y desarrollo soluciones de datos de punta a punta en Microsoft Fabric: arquitectura y bases de datos, aplicaciones de gestión, automatización y reportes de Power BI.": "I design and build end-to-end data solutions on Microsoft Fabric: data architecture and databases, business applications, automation and Power BI reports.",
     // casos de éxito
     'Casos de éxito': 'Case studies', 'Caso de éxito': 'Case study', 'Distribuidora mayorista de bebidas': 'Wholesale beverage distributor',
     'De Excel manual a': 'From manual Excel to',
