@@ -82,6 +82,12 @@ body.brand .hero-h1 span, body.brand .gold-text {
 @keyframes gold-sheen { 0%, 100% { background-position: 100% 0; } 50% { background-position: 0% 0; } }
 body.brand .hero-typed-wrap { color: var(--gold); font-weight: 500; letter-spacing: 0.02em; }
 body.brand .hero-sub { color: #b9b5aa; }
+/* tamaño base de los botones, para todas las páginas */
+.hero-btn-primary, .hero-btn-secondary {
+  display: inline-block; padding: 13px 30px; border-radius: 8px; font-size: 1rem; font-weight: 700;
+  text-decoration: none; text-align: center;
+}
+body.brand .hero-btn-secondary { border-width: 1px; border-style: solid; }
 body.brand .hero-btn-primary {
   position: relative; overflow: hidden; background: var(--gold-grad); background-size: 200% 100%;
   color: #17130a; font-weight: 700; border: 0;
@@ -272,4 +278,97 @@ html { overflow-x: clip; }
   display: inline-block; margin-left: 8px; padding: 2px 9px; border-radius: 999px; vertical-align: middle;
   font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
   color: var(--gold-hi); border: 1px solid var(--line-strong); background: rgba(201, 162, 75, 0.06);
+}
+
+/* ============================================================
+   Casos de éxito
+   ============================================================ */
+.case-hero {
+  position: relative; padding: 8.5rem 0 4.5rem; overflow: hidden;
+  background:
+    radial-gradient(50% 70% at 85% 10%, rgba(201, 162, 75, 0.14) 0%, transparent 70%),
+    var(--ink);
+  border-bottom: 1px solid var(--line);
+}
+.case-kicker { color: var(--muted); font-size: 0.95rem; margin-bottom: 0.6rem; }
+body.brand h1.case-title { font-size: clamp(2.6rem, 5.6vw, 4.6rem); line-height: 1.02; margin-bottom: 1.4rem; }
+.case-lead { color: #b9b5aa; font-size: 1.08rem; line-height: 1.75; max-width: 760px; }
+.case-metrics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin: 2.4rem 0 0.4rem; max-width: 900px; }
+.case-metric { background: var(--ink-3); border: 1px solid var(--line); border-radius: 14px; padding: 1.2rem 1.4rem; }
+.case-metric-label { color: var(--muted); font-size: 0.85rem; margin-bottom: 0.35rem; }
+.case-metric-value { font-family: var(--serif); font-size: clamp(1.7rem, 2.6vw, 2.2rem); font-weight: 600; color: #f6f2e8; line-height: 1.1; }
+.case-metric-value s { color: #6f6b62; text-decoration-thickness: 2px; font-size: 0.8em; }
+.case-metric-value span { color: var(--gold); }
+@media (max-width: 640px) { .case-metrics { grid-template-columns: 1fr; } }
+
+.case-section { padding: 5rem 0; }
+.case-section:not(.section-dark) { background: var(--ink); }
+.case-video {
+  border-radius: 16px; overflow: hidden; border: 1px solid var(--line-strong);
+  box-shadow: 0 40px 80px -40px rgba(0, 0, 0, 0.9), 0 0 0 6px rgba(201, 162, 75, 0.04);
+}
+.case-video video { display: block; width: 100%; height: auto; background: #000; }
+.case-note { color: var(--muted); font-size: 0.82rem; text-align: center; margin-top: 1rem; }
+
+.case-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+@media (max-width: 760px) { .case-grid-2 { grid-template-columns: 1fr; } }
+.case-list { list-style: none; padding: 0; margin: 0; }
+.case-list li { position: relative; padding: 0.55rem 0 0.55rem 1.6rem; color: #d6d1c5; border-bottom: 1px solid rgba(201, 162, 75, 0.08); }
+.case-list li:last-child { border-bottom: 0; }
+.case-list li::before { content: ''; position: absolute; left: 2px; top: 1.05rem; width: 8px; height: 8px; transform: rotate(45deg); background: var(--gold); }
+
+.case-gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-top: 2.2rem; }
+@media (max-width: 760px) { .case-gallery { grid-template-columns: 1fr; } }
+.case-shot { margin: 0; }
+.case-zoom {
+  display: block; width: 100%; padding: 0; border: 1px solid var(--line); border-radius: 12px; overflow: hidden;
+  background: #fff; cursor: zoom-in; transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.case-zoom img { display: block; width: 100%; height: auto; transition: transform 0.6s ease; }
+.case-zoom:hover { border-color: var(--line-strong); transform: translateY(-3px); box-shadow: 0 24px 50px -28px rgba(0, 0, 0, 0.9); }
+.case-zoom:hover img { transform: scale(1.02); }
+.case-shot figcaption { color: #b9b5aa; font-size: 0.9rem; margin-top: 0.8rem; }
+
+.case-flow { list-style: none; padding: 0; margin: 2rem 0 0; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; counter-reset: flow; }
+.case-flow li {
+  counter-increment: flow; display: inline-flex; align-items: center; gap: 10px;
+  padding: 10px 16px; border-radius: 999px; border: 1px solid var(--line-strong); background: rgba(201, 162, 75, 0.06);
+  color: #ece7db; font-size: 0.9rem; font-weight: 500;
+}
+.case-flow li::before { content: counter(flow); font-family: var(--serif); color: var(--gold); font-weight: 600; font-size: 1.05rem; }
+.case-flow li:not(:last-child)::after { content: '→'; color: var(--gold); margin-left: 6px; }
+
+.case-lightbox { padding: 0; border: 1px solid var(--line-strong); border-radius: 12px; background: #000; max-width: 94vw; max-height: 92vh; overflow: hidden; }
+.case-lightbox::backdrop { background: rgba(5, 6, 9, 0.88); backdrop-filter: blur(4px); }
+.case-lightbox img { display: block; max-width: 94vw; max-height: 92vh; width: auto; height: auto; }
+.case-lightbox-close {
+  position: absolute; top: 10px; right: 10px; width: 38px; height: 38px; border-radius: 999px; border: 1px solid var(--line-strong);
+  background: rgba(11, 13, 18, 0.85); color: var(--gold-hi); font-size: 1.4rem; line-height: 1; cursor: pointer;
+}
+
+/* caso destacado en el inicio y en el portfolio */
+.featured-case { display: grid; grid-template-columns: 5fr 6fr; gap: 48px; align-items: center; }
+@media (max-width: 900px) { .featured-case { grid-template-columns: 1fr; gap: 32px; } }
+.featured-case .case-metrics { grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 1.6rem 0 1.8rem; }
+.featured-case .case-metric { padding: 0.9rem 1rem; }
+.featured-case .case-metric-value { font-size: 1.45rem; }
+@media (max-width: 640px) { .featured-case .case-metrics { grid-template-columns: 1fr; } }
+.case-banner {
+  display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap;
+  padding: 1.4rem 1.6rem; margin-bottom: 2.5rem; border-radius: 14px; text-decoration: none;
+  border: 1px solid var(--line-strong);
+  background: linear-gradient(100deg, rgba(201, 162, 75, 0.12), rgba(201, 162, 75, 0.03) 60%), var(--ink-3);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.case-banner:hover { transform: translateY(-2px); box-shadow: 0 20px 44px -26px rgba(0, 0, 0, 0.9); }
+.case-banner-tag { color: var(--gold); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; }
+.case-banner-title { font-family: var(--serif); font-size: 1.6rem; font-weight: 600; color: #f6f2e8; margin-top: 2px; }
+.case-banner-go { color: var(--gold-hi); font-weight: 600; white-space: nowrap; }
+.case-metric-value { font-variant-numeric: lining-nums; }
+.case-gallery > .case-shot:last-child:nth-child(odd) { grid-column: 1 / -1; max-width: 860px; justify-self: center; }
+
+/* subtítulos del video */
+video::cue {
+  background: rgba(11, 13, 18, 0.82); color: #f6f2e8;
+  font-family: 'Inter', sans-serif; font-size: 1.05rem; line-height: 1.45;
 }

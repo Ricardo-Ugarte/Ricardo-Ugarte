@@ -58,3 +58,64 @@
     });
   }
 })();
+
+// Videos que se reproducen solos solo cuando están en pantalla
+(function () {
+  var vids = document.querySelectorAll('video.autoplay-when-visible');
+  if (!vids.length || !('IntersectionObserver' in window)) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    vids.forEach(function (v) { v.setAttribute('controls', ''); });
+    return;
+  }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      var v = e.target;
+      if (e.isIntersecting) { var p = v.play(); if (p && p.catch) p.catch(function () { v.setAttribute('controls', ''); }); }
+      else v.pause();
+    });
+  }, { threshold: 0.35 });
+  vids.forEach(function (v) { io.observe(v); });
+})();
+
+// Subtítulos en español para el video del caso de la distribuidora.
+// Se muestran cuando el sitio está en español y se ocultan en inglés
+// (los textos del video ya están en inglés).
+(function () {
+  var SUBS = {
+    distribuidora: [
+      [0, 3.4, 'Proyecto real · Distribuidora de bebidas\n¿Tu negocio todavía funciona con Excel? Este es el sistema que construí.'],
+      [3.4, 7.4, '01 · Dashboard\nUna vista de toda la operación'],
+      [7.4, 11.1, '02 · Compras\nCarga de facturas: de 10 a 2 minutos'],
+      [11.1, 15.1, '03 · Ventas\nCarga de ventas: de 20 a 5 minutos'],
+      [15.1, 18.4, '04 · Stock\nStock por lote, en tiempo real'],
+      [18.4, 21.6, '05 · Vencimientos\nAlertas antes de perder mercadería'],
+      [21.6, 24.6, '06 · Finanzas\nCuentas corrientes de clientes y caja'],
+      [24.6, 27.9, '07 · Auditoría\nQuién modificó cada registro'],
+      [27.9, 29.4, '08 · Por dentro\nConstruido en Microsoft Fabric'],
+      [29.4, 32.1, '09 · Modelo de datos\nUn solo modelo semántico detrás de cada reporte'],
+      [32.1, 35.6, '10 · Power BI\nCosto, venta y margen por empresa'],
+      [35.6, 38.5, '11 · Power BI\nMovimientos de stock por lote'],
+      [38.5, 41, 'De Excel manual a Microsoft Fabric\nEscríbeme con tu caso y te cuento cómo lo construiría.']
+    ]
+  };
+  var Cue = window.VTTCue || window.TextTrackCue;
+  var tracks = [];
+  document.querySelectorAll('video[data-subs]').forEach(function (v) {
+    var list = SUBS[v.getAttribute('data-subs')];
+    if (!list || !Cue || !v.addTextTrack) return;
+    var t = v.addTextTrack('subtitles', 'Español', 'es');
+    list.forEach(function (c) {
+      var cue = new Cue(c[0], c[1], c[2]);
+      cue.line = -2;
+      t.addCue(cue);
+    });
+    tracks.push(t);
+  });
+  if (!tracks.length) return;
+  function sync() {
+    var mode = /^es/i.test(document.documentElement.lang || 'es') ? 'showing' : 'hidden';
+    tracks.forEach(function (t) { t.mode = mode; });
+  }
+  sync();
+  new MutationObserver(sync).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
+})();
