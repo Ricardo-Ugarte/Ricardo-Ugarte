@@ -130,7 +130,20 @@
                 <div class="flex items-center gap-5 lg:gap-7">
                 <div class="hidden lg:flex space-x-7">
                     <a href="index.html" class="nav-link" aria-current="page">Inicio</a>
-                    <a href="soluciones.html" class="nav-link">Soluciones</a>
+                    <div class="nav-dd">
+                    <button type="button" class="nav-link nav-dd-btn" aria-haspopup="true" aria-expanded="false">Servicios <svg class="dd-chev" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M5.3 7.3a1 1 0 0 1 1.4 0L10 10.6l3.3-3.3a1 1 0 1 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 0-1.4z"/></svg></button>
+                    <div class="nav-dd-panel" role="menu">
+                        <div class="dd-group">Aplicaciones y automatización</div>
+                        <a href="soluciones.html#aplicaciones" class="dd-item" role="menuitem"><span class="dd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 13h8M8 16h5"/></svg></span><span><span class="dd-title">Aplicaciones a medida</span><span class="dd-desc">Deja las planillas: una aplicación hecha a la medida de cómo trabajas.</span></span></a>
+                        <a href="soluciones.html#automatizacion" class="dd-item" role="menuitem"><span class="dd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg></span><span><span class="dd-title">Automatización e IA</span><span class="dd-desc">Las tareas repetitivas se hacen solas, incluso leer facturas.</span></span></a>
+                        <div class="dd-group">Datos y Microsoft Fabric</div>
+                        <a href="soluciones.html#datos" class="dd-item" role="menuitem"><span class="dd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></span><span><span class="dd-title">Bases de datos</span><span class="dd-desc">Toda la información en un solo lugar, siempre actualizada.</span></span></a>
+                        <a href="soluciones.html#fabric" class="dd-item" role="menuitem"><span class="dd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></span><span><span class="dd-title">Microsoft Fabric</span><span class="dd-desc">Datos, aplicaciones y reportes conectados en una sola plataforma.</span></span></a>
+                        <div class="dd-group">Power BI</div>
+                        <a href="soluciones.html#bi" class="dd-item" role="menuitem"><span class="dd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span><span><span class="dd-title">Reportes de Power BI</span><span class="dd-desc">Indicadores con un mismo criterio para todos, que se actualizan solos.</span></span></a>
+                        <a href="contact.html#como-trabajo" class="dd-foot">Cómo trabajo →</a>
+                    </div>
+                    </div>
                     <a href="casos.html" class="nav-link">Casos de éxito</a>
                     <a href="portfolio.html" class="nav-link">Portfolio</a>
                     <a href="about.html" class="nav-link">Sobre mí</a>
@@ -152,7 +165,16 @@
         <div id="mobile-menu" class="hidden lg:hidden">
             <div class="px-4 py-2 space-y-2">
                 <a href="index.html" class="block py-2">Inicio</a>
-                <a href="soluciones.html" class="block py-2">Soluciones</a>
+                <details class="m-dd">
+                    <summary class="block py-2">Servicios</summary>
+                    <div class="m-dd-list">
+                    <a href="soluciones.html#aplicaciones" class="block py-2">Aplicaciones a medida</a>
+                    <a href="soluciones.html#automatizacion" class="block py-2">Automatización e IA</a>
+                    <a href="soluciones.html#datos" class="block py-2">Bases de datos</a>
+                    <a href="soluciones.html#fabric" class="block py-2">Microsoft Fabric</a>
+                    <a href="soluciones.html#bi" class="block py-2">Reportes de Power BI</a>
+                    </div>
+                </details>
                 <a href="casos.html" class="block py-2">Casos de éxito</a>
                 <a href="portfolio.html" class="block py-2">Portfolio</a>
                 <a href="about.html" class="block py-2">Sobre mí</a>
@@ -700,46 +722,47 @@
       </div><!-- /hero-inner -->
     </section>
 
-    <!-- Problemas que resuelvo -->
-    <section class="py-24 warm-section">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Qué puedo resolver -->
+    <section class="py-24 warm-section" id="resolver">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12 scroll-reveal">
-                <div class="section-eyebrow">Soluciones</div>
-                <h2 class="section-title">Problemas que <span class="gold-text">resuelvo</span></h2>
-                <p class="section-lead max-w-2xl mx-auto">No vendo herramientas sueltas: desarrollo la solución completa, desde los datos hasta la aplicación y los reportes.</p>
+                <div class="section-eyebrow">Qué puedo resolver</div>
+                <h2 class="section-title">Lo que cambia <span class="gold-text">en tu empresa</span></h2>
+                <p class="section-lead max-w-2xl mx-auto">Cada solución se diseña a la medida de tu negocio. Estos son los casos más comunes.</p>
             </div>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6" data-stagger>
-                <a href="soluciones.html#datos" class="scroll-reveal h-full prob-card"><div class="g-card h-full">
-                    <h3>Tu información está repartida en planillas</h3>
-                    <p>La centralizo en una base de datos que se actualiza sin consolidaciones manuales.</p>
-                    <span class="sol-link" style="margin-top:0;">Ver solución →</span>
-                </div></a>
-                <a href="soluciones.html#aplicaciones" class="scroll-reveal h-full prob-card"><div class="g-card h-full">
-                    <h3>Cargas compras, ventas o stock a mano</h3>
-                    <p>Desarrollo una aplicación de gestión que registra cada operación con validaciones.</p>
-                    <span class="sol-link" style="margin-top:0;">Ver solución →</span>
-                </div></a>
-                <a href="soluciones.html#fabric" class="scroll-reveal h-full prob-card"><div class="g-card h-full">
-                    <h3>Tus datos y reportes viven en herramientas separadas</h3>
-                    <p>Los reúno en Microsoft Fabric, con despliegue controlado y acceso por rol.</p>
-                    <span class="sol-link" style="margin-top:0;">Ver solución →</span>
-                </div></a>
-                <a href="soluciones.html#bi" class="scroll-reveal h-full prob-card"><div class="g-card h-full">
-                    <h3>Los reportes llegan tarde o no coinciden entre áreas</h3>
-                    <p>Construyo modelos y reportes de Power BI con indicadores consistentes.</p>
-                    <span class="sol-link" style="margin-top:0;">Ver solución →</span>
-                </div></a>
-                <a href="soluciones.html#automatizacion" class="scroll-reveal h-full prob-card"><div class="g-card h-full">
-                    <h3>Tu equipo pierde horas en tareas repetitivas</h3>
-                    <p>Automatizo flujos e incorporo IA, por ejemplo para leer facturas.</p>
-                    <span class="sol-link" style="margin-top:0;">Ver solución →</span>
-                </div></a>
-                <a href="soluciones.html" class="scroll-reveal h-full prob-card prob-all"><div class="g-card h-full">
-                    <h3>¿Tu caso es otro?</h3>
-                    <p>Mira todas las soluciones o cuéntame qué necesitas resolver.</p>
-                    <span class="sol-link" style="margin-top:0;">Ver todas las soluciones →</span>
-                </div></a>
+            <div class="rs-list">
+                <div class="rs-row scroll-reveal">
+                    <div class="rs-num">01</div>
+                    <p class="rs-before">Tu negocio funciona con planillas, papeles y mensajes sueltos.</p>
+                    <p class="rs-after"><span class="rs-arrow" aria-hidden="true">→</span>Una aplicación hecha a la medida de cómo trabajas.</p>
+                    <a href="casos.html" class="rs-proof">Ver el caso →</a>
+                </div>
+                <div class="rs-row scroll-reveal">
+                    <div class="rs-num">02</div>
+                    <p class="rs-before">La información está repartida en archivos que nadie consolida igual.</p>
+                    <p class="rs-after"><span class="rs-arrow" aria-hidden="true">→</span>Toda la información en una sola base de datos, siempre actualizada.</p>
+                    <a href="portfolio.html" class="rs-proof">Ver proyectos →</a>
+                </div>
+                <div class="rs-row scroll-reveal">
+                    <div class="rs-num">03</div>
+                    <p class="rs-before">Cada área trae sus números y nunca coinciden.</p>
+                    <p class="rs-after"><span class="rs-arrow" aria-hidden="true">→</span>Reportes de Power BI con un mismo criterio para todos.</p>
+                    <a href="portfolio.html" class="rs-proof">Ver proyectos →</a>
+                </div>
+                <div class="rs-row scroll-reveal">
+                    <div class="rs-num">04</div>
+                    <p class="rs-before">Tu equipo pasa horas copiando datos de un lado a otro.</p>
+                    <p class="rs-after"><span class="rs-arrow" aria-hidden="true">→</span>Las tareas repetitivas se hacen solas, incluso leer facturas con IA.</p>
+                    <a href="casos.html" class="rs-proof">Ver el caso →</a>
+                </div>
+                <div class="rs-row scroll-reveal">
+                    <div class="rs-num">05</div>
+                    <p class="rs-before">Tus datos, aplicaciones y reportes están en herramientas separadas.</p>
+                    <p class="rs-after"><span class="rs-arrow" aria-hidden="true">→</span>Todo conectado en Microsoft Fabric, con permisos por persona.</p>
+                    <a href="casos.html" class="rs-proof">Ver el caso →</a>
+                </div>
             </div>
+            <p class="rs-other scroll-reveal">¿Tu caso es otro? <a href="contact.html">Cuéntame qué te gustaría resolver →</a></p>
         </div>
     </section>
 
@@ -969,16 +992,15 @@
                 </div>
                 <div>
                     <div class="f-head">Servicios</div>
-                    <a href="soluciones.html#datos" class="f-link">Arquitectura e ingeniería de datos</a>
-                    <a href="soluciones.html#fabric" class="f-link">Microsoft Fabric</a>
-                    <a href="soluciones.html#bi" class="f-link">Business Intelligence</a>
-                    <a href="soluciones.html#aplicaciones" class="f-link">Aplicaciones empresariales</a>
+                    <a href="soluciones.html#aplicaciones" class="f-link">Aplicaciones a medida</a>
                     <a href="soluciones.html#automatizacion" class="f-link">Automatización e IA</a>
+                    <a href="soluciones.html#datos" class="f-link">Bases de datos</a>
+                    <a href="soluciones.html#fabric" class="f-link">Microsoft Fabric</a>
+                    <a href="soluciones.html#bi" class="f-link">Reportes de Power BI</a>
                 </div>
                 <div>
                     <div class="f-head">Navegación</div>
                     <a href="index.html" class="f-link">Inicio</a>
-                    <a href="soluciones.html" class="f-link">Soluciones</a>
                     <a href="casos.html" class="f-link">Casos de éxito</a>
                     <a href="portfolio.html" class="f-link">Portfolio</a>
                     <a href="about.html" class="f-link">Sobre mí</a>

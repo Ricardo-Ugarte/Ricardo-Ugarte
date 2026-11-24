@@ -129,3 +129,22 @@
     img.addEventListener('error', function () { img.remove(); });
   });
 })();
+
+// Menú desplegable de servicios
+(function () {
+  document.querySelectorAll('.nav-dd').forEach(function (dd) {
+    var btn = dd.querySelector('.nav-dd-btn');
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var open = dd.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    dd.addEventListener('mouseleave', function () { dd.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); });
+  });
+  document.addEventListener('click', function () {
+    document.querySelectorAll('.nav-dd.open').forEach(function (dd) { dd.classList.remove('open'); dd.querySelector('.nav-dd-btn').setAttribute('aria-expanded', 'false'); });
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') document.querySelectorAll('.nav-dd.open').forEach(function (dd) { dd.classList.remove('open'); dd.querySelector('.nav-dd-btn').focus(); });
+  });
+})();

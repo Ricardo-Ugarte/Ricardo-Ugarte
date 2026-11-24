@@ -126,7 +126,20 @@
                 <div class="flex items-center gap-5 lg:gap-7">
                 <div class="hidden lg:flex space-x-7">
                     <a href="index.html" class="nav-link">Inicio</a>
-                    <a href="soluciones.html" class="nav-link">Soluciones</a>
+                    <div class="nav-dd">
+                    <button type="button" class="nav-link nav-dd-btn" aria-haspopup="true" aria-expanded="false">Servicios <svg class="dd-chev" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M5.3 7.3a1 1 0 0 1 1.4 0L10 10.6l3.3-3.3a1 1 0 1 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 0-1.4z"/></svg></button>
+                    <div class="nav-dd-panel" role="menu">
+                        <div class="dd-group">Aplicaciones y automatización</div>
+                        <a href="soluciones.html#aplicaciones" class="dd-item" role="menuitem"><span class="dd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 13h8M8 16h5"/></svg></span><span><span class="dd-title">Aplicaciones a medida</span><span class="dd-desc">Deja las planillas: una aplicación hecha a la medida de cómo trabajas.</span></span></a>
+                        <a href="soluciones.html#automatizacion" class="dd-item" role="menuitem"><span class="dd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg></span><span><span class="dd-title">Automatización e IA</span><span class="dd-desc">Las tareas repetitivas se hacen solas, incluso leer facturas.</span></span></a>
+                        <div class="dd-group">Datos y Microsoft Fabric</div>
+                        <a href="soluciones.html#datos" class="dd-item" role="menuitem"><span class="dd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></span><span><span class="dd-title">Bases de datos</span><span class="dd-desc">Toda la información en un solo lugar, siempre actualizada.</span></span></a>
+                        <a href="soluciones.html#fabric" class="dd-item" role="menuitem"><span class="dd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></span><span><span class="dd-title">Microsoft Fabric</span><span class="dd-desc">Datos, aplicaciones y reportes conectados en una sola plataforma.</span></span></a>
+                        <div class="dd-group">Power BI</div>
+                        <a href="soluciones.html#bi" class="dd-item" role="menuitem"><span class="dd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span><span><span class="dd-title">Reportes de Power BI</span><span class="dd-desc">Indicadores con un mismo criterio para todos, que se actualizan solos.</span></span></a>
+                        <a href="contact.html#como-trabajo" class="dd-foot">Cómo trabajo →</a>
+                    </div>
+                    </div>
                     <a href="casos.html" class="nav-link">Casos de éxito</a>
                     <a href="portfolio.html" class="nav-link">Portfolio</a>
                     <a href="about.html" class="nav-link">Sobre mí</a>
@@ -148,7 +161,16 @@
         <div id="mobile-menu" class="hidden lg:hidden">
             <div class="px-4 py-2 space-y-2">
                 <a href="index.html" class="block py-2">Inicio</a>
-                <a href="soluciones.html" class="block py-2">Soluciones</a>
+                <details class="m-dd">
+                    <summary class="block py-2">Servicios</summary>
+                    <div class="m-dd-list">
+                    <a href="soluciones.html#aplicaciones" class="block py-2">Aplicaciones a medida</a>
+                    <a href="soluciones.html#automatizacion" class="block py-2">Automatización e IA</a>
+                    <a href="soluciones.html#datos" class="block py-2">Bases de datos</a>
+                    <a href="soluciones.html#fabric" class="block py-2">Microsoft Fabric</a>
+                    <a href="soluciones.html#bi" class="block py-2">Reportes de Power BI</a>
+                    </div>
+                </details>
                 <a href="casos.html" class="block py-2">Casos de éxito</a>
                 <a href="portfolio.html" class="block py-2">Portfolio</a>
                 <a href="about.html" class="block py-2">Sobre mí</a>
@@ -161,9 +183,9 @@
     <section class="bg-gradient-to-br from-blue-50 to-indigo-100 pt-24 pb-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center scroll-reveal">
-                <h1 class="text-5xl font-bold text-slate-800 mb-6">Hablemos de lo que necesita mejorar tu empresa</h1>
+                <h1 class="text-5xl font-bold text-slate-800 mb-6">Habla directamente con quien lo construye</h1>
                 <p class="text-xl text-slate-600 max-w-3xl mx-auto">
-                    Cuéntame qué necesitas resolver con tus datos y te propongo cómo abordarlo.
+                    Cuéntame qué tarea o proceso te gustaría resolver. Te respondo personalmente y te propongo cómo abordarlo.
                 </p>
             </div>
         </div>
@@ -218,6 +240,30 @@
     </div>
 </section>
 
+    <!-- Cómo trabajo -->
+    <section class="py-20 warm-section" id="como-trabajo">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 scroll-reveal">
+                <div class="section-eyebrow">Proceso</div>
+                <h2 class="section-title">Cómo <span class="gold-text">trabajo</span></h2>
+                <p class="section-lead max-w-2xl mx-auto">En cada paso sabes qué viene después y qué vas a recibir.</p>
+            </div>
+            <div class="steps5">
+                <div class="step5 scroll-reveal"><div class="step5-n">01</div><h3>Diagnóstico</h3><p>Me cuentas cómo trabajan hoy y qué quieres resolver.</p>
+                    <div class="step5-get"><b>Recibes</b>Un resumen de lo que encontré y qué conviene hacer</div></div>
+                <div class="step5 scroll-reveal"><div class="step5-n">02</div><h3>Propuesta</h3><p>Defino el alcance, el precio y los plazos.</p>
+                    <div class="step5-get"><b>Recibes</b>Una propuesta por escrito</div></div>
+                <div class="step5 scroll-reveal"><div class="step5-n">03</div><h3>Desarrollo</h3><p>Construyo por etapas y revisamos el avance juntos.</p>
+                    <div class="step5-get"><b>Recibes</b>Avances para probar en cada etapa</div></div>
+                <div class="step5 scroll-reveal"><div class="step5-n">04</div><h3>Puesta en marcha</h3><p>Lo probamos con tu equipo y lo dejamos funcionando.</p>
+                    <div class="step5-get"><b>Recibes</b>El sistema funcionando y capacitación</div></div>
+                <div class="step5 scroll-reveal"><div class="step5-n">05</div><h3>Soporte</h3><p>Ajustes y mejoras cuando los necesites.</p>
+                    <div class="step5-get"><b>Recibes</b>Contacto directo conmigo</div></div>
+            </div>
+            <p class="steps-decide">Nada avanza hasta que apruebes la propuesta.</p>
+        </div>
+    </section>
+
     <!-- Formulario Simplificado -->
     <section class="py-16 bg-slate-50">
         <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -246,10 +292,10 @@
                     </div>
                     
                     <div>
-                        <label for="mensaje" class="block text-sm font-semibold text-slate-700 mb-2">¿Qué desafío estás enfrentando con tus datos? *</label>
+                        <label for="mensaje" class="block text-sm font-semibold text-slate-700 mb-2">¿Qué tarea o proceso te gustaría resolver? *</label>
                         <textarea id="mensaje" name="mensaje" rows="4" required
                                   class="form-input w-full px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
-                                  placeholder="Ej: 'Pasamos 2 días semanales consolidando reportes de ventas en Excel' o 'No tenemos visibilidad en tiempo real del inventario'"></textarea>
+                                  placeholder="Ej.: &quot;Cargamos los pedidos en Excel y siempre hay errores&quot; o &quot;Cada mes armamos el reporte de ventas a mano&quot;"></textarea>
                     </div>
                     
                     <!-- Campos opcionales colapsados -->
@@ -359,59 +405,6 @@
     });
     </script>
 
-    <!-- Additional Information -->
-    <section class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16 scroll-reveal">
-                <h2 class="text-4xl font-bold text-slate-800 mb-4">Cómo trabajo</h2>
-                <p class="text-xl text-slate-600 max-w-3xl mx-auto">
-                    Así trabajo en cada proyecto, desde el diagnóstico hasta el soporte.
-                </p>
-            </div>
-            
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <div class="text-center scroll-reveal">
-                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <span class="text-2xl font-bold text-blue-600">1</span>
-                    </div>
-                    <h3 class="text-xl font-semibold text-slate-800 mb-3">Diagnóstico</h3>
-                    <p class="text-slate-600">
-                        Comprender tus objetivos comerciales, fuentes de datos y requisitos analíticos
-                    </p>
-                </div>
-                
-                <div class="text-center scroll-reveal">
-                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <span class="text-2xl font-bold text-green-600">2</span>
-                    </div>
-                    <h3 class="text-xl font-semibold text-slate-800 mb-3">Estrategia</h3>
-                    <p class="text-slate-600">
-                        Desarrollo de una estrategia de análisis integral y una arquitectura de soluciones
-                    </p>
-                </div>
-                
-                <div class="text-center scroll-reveal">
-                    <div class="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <span class="text-2xl font-bold text-amber-600">3</span>
-                    </div>
-                    <h3 class="text-xl font-semibold text-slate-800 mb-3">Implementación</h3>
-                    <p class="text-slate-600">
-                        Desarrollo e implementación de soluciones de datos y mejoramiento interactivo.
-                    </p>
-                </div>
-                
-                <div class="text-center scroll-reveal">
-                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <span class="text-2xl font-bold text-purple-600">4</span>
-                    </div>
-                    <h3 class="text-xl font-semibold text-slate-800 mb-3">Soporte</h3>
-                    <p class="text-slate-600">
-                        Proporcionar servicios continuos de asistencia, formación y optimización.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Footer -->
     <footer class="site-footer" style="padding:56px 0 0;">
@@ -440,16 +433,15 @@
                 </div>
                 <div>
                     <div class="f-head">Servicios</div>
-                    <a href="soluciones.html#datos" class="f-link">Arquitectura e ingeniería de datos</a>
-                    <a href="soluciones.html#fabric" class="f-link">Microsoft Fabric</a>
-                    <a href="soluciones.html#bi" class="f-link">Business Intelligence</a>
-                    <a href="soluciones.html#aplicaciones" class="f-link">Aplicaciones empresariales</a>
+                    <a href="soluciones.html#aplicaciones" class="f-link">Aplicaciones a medida</a>
                     <a href="soluciones.html#automatizacion" class="f-link">Automatización e IA</a>
+                    <a href="soluciones.html#datos" class="f-link">Bases de datos</a>
+                    <a href="soluciones.html#fabric" class="f-link">Microsoft Fabric</a>
+                    <a href="soluciones.html#bi" class="f-link">Reportes de Power BI</a>
                 </div>
                 <div>
                     <div class="f-head">Navegación</div>
                     <a href="index.html" class="f-link">Inicio</a>
-                    <a href="soluciones.html" class="f-link">Soluciones</a>
                     <a href="casos.html" class="f-link">Casos de éxito</a>
                     <a href="portfolio.html" class="f-link">Portfolio</a>
                     <a href="about.html" class="f-link">Sobre mí</a>
