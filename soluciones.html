@@ -16,11 +16,11 @@
     <meta property="og:url" content="https://ricardo-ugarte.github.io/Ricardo-Ugarte/soluciones.html">
     <meta property="og:image" content="https://ricardo-ugarte.github.io/Ricardo-Ugarte/brand/og-image.jpg">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="stylesheet" href="./tailwind.css">
+    <link rel="stylesheet" href="./tailwind.css?v=20261124c">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./brand.css">
+    <link rel="stylesheet" href="./brand.css?v=20261124c">
 </head>
 <body class="brand">
     <div class="scroll-progress" aria-hidden="true"></div>
@@ -93,9 +93,52 @@
             <div class="section-eyebrow hero-in">Servicios</div>
             <h1 class="case-title hero-in">Qué puedo construir <span class="gold-text">para tu empresa</span></h1>
             <p class="case-lead hero-in">Cada solución se diseña a la medida de tu negocio. Puede ser una sola o varias conectadas, desde la base de datos hasta los reportes.</p>
-            <nav class="sol-index hero-in" aria-label="Servicios"><a href="#aplicaciones">Aplicaciones a medida</a><a href="#automatizacion">Automatización e IA</a><a href="#datos">Bases de datos</a><a href="#fabric">Microsoft Fabric</a><a href="#bi">Reportes de Power BI</a></nav>
         </div>
     </header>
+
+    <!-- Qué puedo resolver -->
+    <section class="py-20 warm-section" id="resolver">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 scroll-reveal">
+                <div class="section-eyebrow">Qué puedo resolver</div>
+                <h2 class="section-title">Lo que cambia <span class="gold-text">en tu empresa</span></h2>
+                <p class="section-lead max-w-2xl mx-auto">Estos son los casos más comunes. Elige el tuyo y mira el detalle.</p>
+            </div>
+            <div class="rs-list">
+                <div class="rs-row scroll-reveal">
+                    <div class="rs-num">01</div>
+                    <p class="rs-before">Tu negocio funciona con planillas, papeles y mensajes sueltos.</p>
+                    <p class="rs-after"><span class="rs-arrow" aria-hidden="true">→</span>Una aplicación hecha a la medida de cómo trabajas.</p>
+                    <a href="#aplicaciones" class="rs-proof">Ver servicio ↓</a>
+                </div>
+                <div class="rs-row scroll-reveal">
+                    <div class="rs-num">02</div>
+                    <p class="rs-before">Tu equipo pasa horas copiando datos de un lado a otro.</p>
+                    <p class="rs-after"><span class="rs-arrow" aria-hidden="true">→</span>Las tareas repetitivas se hacen solas, incluso leer facturas con IA.</p>
+                    <a href="#automatizacion" class="rs-proof">Ver servicio ↓</a>
+                </div>
+                <div class="rs-row scroll-reveal">
+                    <div class="rs-num">03</div>
+                    <p class="rs-before">La información está repartida en archivos que nadie consolida igual.</p>
+                    <p class="rs-after"><span class="rs-arrow" aria-hidden="true">→</span>Toda la información en una sola base de datos, siempre actualizada.</p>
+                    <a href="#datos" class="rs-proof">Ver servicio ↓</a>
+                </div>
+                <div class="rs-row scroll-reveal">
+                    <div class="rs-num">04</div>
+                    <p class="rs-before">Tus datos, aplicaciones y reportes están en herramientas separadas.</p>
+                    <p class="rs-after"><span class="rs-arrow" aria-hidden="true">→</span>Todo conectado en Microsoft Fabric, con permisos por persona.</p>
+                    <a href="#fabric" class="rs-proof">Ver servicio ↓</a>
+                </div>
+                <div class="rs-row scroll-reveal">
+                    <div class="rs-num">05</div>
+                    <p class="rs-before">Cada área trae sus números y nunca coinciden.</p>
+                    <p class="rs-after"><span class="rs-arrow" aria-hidden="true">→</span>Reportes de Power BI con un mismo criterio para todos.</p>
+                    <a href="#bi" class="rs-proof">Ver servicio ↓</a>
+                </div>
+            </div>
+            <p class="rs-other scroll-reveal">¿Tu caso es otro? <a href="contact.html">Cuéntame qué te gustaría resolver →</a></p>
+        </div>
+    </section>
 
     <section class="case-section" id="aplicaciones">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -297,7 +340,7 @@
         document.querySelectorAll('.scroll-reveal').forEach(function (el) { obs.observe(el); });
     });
     </script>
-    <script src="./brand.js" defer></script>
-    <script src="./i18n.js" defer></script>
+    <script src="./brand.js?v=20261124c" defer></script>
+    <script src="./i18n.js?v=20261124c" defer></script>
 </body>
 </html>

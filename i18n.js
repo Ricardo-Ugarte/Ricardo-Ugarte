@@ -4,6 +4,8 @@
 // una clave que no coincide deja ese texto en español.
 (function () {
   var EN = {
+    "Estos son los casos más comunes. Elige el tuyo y mira el detalle.": "These are the most common cases. Pick yours and see the details.",
+    "Ver servicio ↓": "See service ↓",
 
     // menú de servicios
     "Aplicaciones y automatización": "Applications & automation",
@@ -490,14 +492,14 @@
     'Artículos técnicos basados en problemas reales que resolví en proyectos con Power BI, Power Apps y Microsoft Fabric.': 'Technical articles based on real problems I solved in Power BI, Power Apps and Microsoft Fabric projects.',
     // casos de éxito
     'Casos de éxito': 'Case studies', 'Caso de éxito': 'Case study', 'Distribuidora mayorista de bebidas': 'Wholesale beverage distributor',
-    'De Excel manual a': 'From manual Excel to',
+    'De Excel a': 'From Excel to',
     'Una distribuidora mayorista de bebidas gestionaba compras, ventas y stock en archivos de Excel. Las facturas se cargaban a mano, consolidar el stock era difícil y los errores eran frecuentes. Construí un sistema de gestión sobre Microsoft Fabric, con reportes de Power BI encima.':
       'A wholesale beverage distributor ran purchases, sales and stock on Excel files. Invoices were typed by hand, stock was hard to consolidate and errors were common. I built a management system on Microsoft Fabric with Power BI reporting on top.',
     'Una distribuidora mayorista de bebidas gestionaba compras, ventas y stock en Excel. Construí un sistema de gestión sobre Microsoft Fabric, con reportes de Power BI encima.':
       'A wholesale beverage distributor ran purchases, sales and stock on Excel. I built a management system on Microsoft Fabric with Power BI reporting on top.',
     'Carga de facturas': 'Invoice entry', 'Carga de ventas': 'Sales entry', 'Stock consolidado': 'Consolidated stock', 'En tiempo real': 'Real time',
     'Quiero algo así para mi empresa': 'I want this for my company', 'Ver el caso completo': 'See the full case study', 'Ver el caso completo →': 'See the full case study →',
-    'De Excel manual a Microsoft Fabric · distribuidora de bebidas': 'From manual Excel to Microsoft Fabric · beverage distributor',
+    'De Excel a Microsoft Fabric · distribuidora de bebidas': 'From Excel to Microsoft Fabric · beverage distributor',
     'El sistema en 40 segundos, con subtítulos en español.': 'The system in 40 seconds.',
     'Módulos': 'Modules', 'Entregables': 'Delivered',
     'Compras y costeo de facturas': 'Purchases and invoice costing', 'Ventas y preventa': 'Sales and pre-sales',
@@ -524,7 +526,7 @@
     'Pantalla de vencimientos por lote': 'Expiry by lot screen', 'Pantalla de cuentas corrientes de clientes': 'Customer accounts screen',
     'Vista de linaje del workspace en Microsoft Fabric': 'Workspace lineage view in Microsoft Fabric', 'Diagrama del modelo semántico': 'Semantic model diagram',
     'Reporte de Power BI de resumen de ventas': 'Power BI sales summary report',
-    'Caso de éxito: de Excel manual a Microsoft Fabric · Ricardo Ugarte': 'Case study: from manual Excel to Microsoft Fabric · Ricardo Ugarte',
+    'Caso de éxito: de Excel a Microsoft Fabric · Ricardo Ugarte': 'Case study: from Excel to Microsoft Fabric · Ricardo Ugarte',
     // atributos
     '¿Cómo te llamas?': "What's your name?", 'tu@empresa.com': 'you@company.com', 'Nombre de tu empresa': 'Your company name',
     "Ej: 'Pasamos 2 días semanales consolidando reportes de ventas en Excel' o 'No tenemos visibilidad en tiempo real del inventario'": "E.g. 'We spend 2 days a week consolidating sales reports in Excel' or 'We have no real-time visibility of inventory'",

@@ -95,7 +95,7 @@
       [29.4, 32.1, '09 · Modelo de datos\nUn solo modelo semántico detrás de cada reporte'],
       [32.1, 35.6, '10 · Power BI\nCosto, venta y margen por empresa'],
       [35.6, 38.5, '11 · Power BI\nMovimientos de stock por lote'],
-      [38.5, 41, 'De Excel manual a Microsoft Fabric\nEscríbeme con tu caso y te cuento cómo lo construiría.']
+      [38.5, 41, 'De Excel a Microsoft Fabric\nEscríbeme con tu caso y te cuento cómo lo construiría.']
     ]
   };
   var Cue = window.VTTCue || window.TextTrackCue;
